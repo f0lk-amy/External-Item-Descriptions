@@ -340,17 +340,17 @@ EID.descriptions[languageCode].collectibles={
 	{"315", "Atractor Ciudat", "Lacrimile lui Isaac atrag inamici, lucruri și bibelouri"}, -- Strange Attractor
 	{"316", "Ochi Blestemat", "Val încărcat de 4 lacrimi#{{Warning}} Primind daune când e încărcat parțial îl teleportează pe Isaac într-o cameră aleatorie"}, -- Cursed Eye
 	{"317", "Lichid Misterios", "Lacrimile lui Isaac lasă fluid#Fluidul dă 30 daune pe secundă"}, -- Mysterious Liquid
-	{"318", "Gemeni", "Familiar care luptă de aproape#Dă 6 daune de contact pe secundă"}, -- Gemini
-	{"319", "Cain's Other Eye", "Bounces around the room#Low accuracy tears that deal Isaac's damage"}, -- Cain's Other Eye
-	{"320", "???'s Only Friend", "Controllable fly#Deals 37.5 contact damage per second"}, -- ???'s Only Friend
-	{"321", "Samson's Chains", "Draggable ball that can destroy rocks#Deals 10.7 contact damage per second"}, -- Samson's Chains
-	{"322", "Mongo Baby", "Mimics your baby familiars' tears#If you have none, shoots normal 3.5 damage tears"}, -- Mongo Baby
-	{"323", "Isaac's Tears", "Shoots 8 tears in all directions#The tears copy Isaac's tear effects#Recharges by shooting tears"}, -- Isaac's Tears
-	{"324", "Undefined", "Teleports Isaac to the {{TreasureRoom}} Treasure, {{SecretRoom}} Secret, {{SuperSecretRoom}} Super Secret or {{ErrorRoom}} I AM ERROR Room"}, -- Undefined
-	{"325", "Scissors", "{{Timer}} Isaac's head turns into a stationary familiar for the room#The head shoots 3.5 damage tears#The body is controlled separately and still shoots Isaac's tears"}, -- Scissors
-	{"326", "Breath of Life", "Holding down the USE button empties the charge bar#Isaac is temporarily invincible when the charge bar is empty#{{Warning}} Holding it for too long deals damage to Isaac"}, -- Breath of Life
-	{"327", "The Polaroid", "Taking damage at half a Red Heart or none makes isaac temporarily invincible"}, -- The Polaroid
-	{"328", "The Negative", "Taking damage at half a Red Heart or none damages all enemies in the room"}, -- The Negative
+	{"318", "Gemeni", "Familiar care luptă de aproape#Provoacă 6 daune de contact pe secundă"}, -- Gemini
+	{"319", "Celălalt Ochi a lui Cain", "Se mișcă prin cameră#Lacrimi cu precizie mică care provoacă daunele lui Isaac"}, -- Cain's Other Eye
+	{"320", "Singurul prienten a lui ???", "Muscă controlaiblă#Provoacă 37.5 daune de contact pe secundă"}, -- ???'s Only Friend
+	{"321", "Lanțurile lui Samson", "O bilă legată de picior care poate distruge obstacole și să blocheze proiectilele#Provoacă 10.7 daune pe secundă"}, -- Samson's Chains
+	{"322", "Bebeluș Mongo", "Copiază lacrimile de la alți familiari#Dacă nu sunt alti familiar, provoacă 3.5 daune pe lacrimă"}, -- Mongo Baby
+	{"323", "lacrimile lui Isaac", "Aruncă cu 8 lacrimi în toate directiile#Copiază efectele lacrimilor lui ISaac#Se încarcă prin tragerea de lacrimi"}, -- Isaac's Tears
+	{"324", "Nedefinit", "Îl teleporteză pe Isaac în {{TreasureRoom}} Camera Comorilor, {{SecretRoom}} Camera Secretă, {{SuperSecretRoom}} Camera Super Secretă sau {{ErrorRoom}} I AM ERROR Room"}, -- Undefined
+	{"325", "Foarfece", "{{Timer}} Capul lui Isaac devine un familiar saționar pe durata camerei#Capul trage cu lacrimi ce provoacă 3.5 daune#Corup este controalbil și trage cu lacrimile lui Isaac"}, -- Scissors
+	{"326", "Respirația Vieții", "Ținerea butonului de folosință apăsat golește bara de încărcare#Isaac este invincibil temporar când bara de încărcare este goală#{{Warning}} Dacă butonul este apăsat prea mult Isaac este vătămat"}, -- Breath of Life
+	{"327", "Polaroidul", "Vătămarea la jumătatea de Inimă Roșie sau nici una îl face pe Isaac invincibil temporar"}, -- The Polaroid
+	{"328", "Negativul", "Vătămarea la jumătatea de Inimă Roșie sau nici una provoacă daune tuturor inamicilor din cameră"}, -- The Negative
 	{"329", "The Ludovico Technique", "Replaces Isaac's tears with one giant controllable tear"}, -- The Ludovico Technique
 	{"330", "Soy Milk", "↑ {{Tears}} x4 Tears multiplier#↑ {{Tears}} -2 Tear delay#↓ {{Damage}} x0.2 Damage multiplier#↓ {{Tearsize}} x0.5 Tear size"}, -- Soy Milk
 	{"331", "Godhead", "↑ {{Damage}} +0.5 Damage#↑ {{Range}} +1.2 Range#↑ +0.8 Tear height#↓ {{Tears}} -0.3 Tears#↓ {{Shotspeed}} -0.3 Shot speed#Homing tears#{{Damage}} Tears gain an aura that deals 4.5x Isaac's damage per second"}, -- Godhead
