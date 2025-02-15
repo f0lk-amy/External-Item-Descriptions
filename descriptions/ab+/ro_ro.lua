@@ -284,7 +284,7 @@ EID.descriptions[languageCode].collectibles={
 	{"261", "Proptoza", "↑ {{Damage}} x2 Daune#↓ Lacrimile dau mai puține daune cu cât de departe ajung"}, -- Proptosis
 	{"262", "Pagina Dispărută 2", "{{BlackHeart}} +1 Inimă Neagră#Luând daune până la 1 inimă dăunează toți inamicii din cameră"}, -- Missing Page 2
 	{"263", "", "<item does not exist>"},
-	{"264", "Muscă deșteaptă", "Orbital#Atacă inamicii când Isaac primește daune#Dă 22.5 daune de contact pe secundă"}, -- Smart Fly
+	{"264", "Muscă Deșteaptă", "Orbital#Atacă inamicii când Isaac primește daune#Dă 22.5 daune de contact pe secundă"}, -- Smart Fly
 	{"265", "Bebeluș Uscat", "10% șansă să dai daune tuturor inamicilor din cameră când este lovit de o lacrimă inamică"}, -- Dry Baby
 	{"266", "Sac Suculent", "{{Slow}} Lasă un fluid încetinitor#Apar 1-2 păianjeni după golirea unei camere"}, -- Juicy Sack
 	{"267", "Robo-Bebeluș 2.0", "Trage cu lasere#Dă 3.5 daune pe atac#Se mișcă în direcția în care Isaac trage"}, -- Robo-Baby 2.0
@@ -295,20 +295,20 @@ EID.descriptions[languageCode].collectibles={
 	{"272", "BBF", "Muscă prietenoasă explozivă#Explozia dă 60 daune#{{Warning}} Explozia îl poate răni pe Isaac"}, -- BBF
 	{"273", "Creierul lui Bob", "Se aruncă în direcția în care Isaac trage#Explodează când nimerește un inamic#{{Poison}} Explozia dă 60 daune și otrăvește inamicii#{{Warning}} Explozia îl poate răni pe Isaac"}, -- Bob's Brain
 	{"274", "Cel mai bun Prieten", "După luarea unei daune oferă un orbital cu distanță medie pentru cameră#Dă 75 daune de contact pe secundă"}, -- Best Bud
-	{"275", "Micul Brimstone", "{{Chargeable}} Familiar care încarcă și aruncă cu {{Collectible118}} brimstone#Provoacă 31.5 daune pe durata a 31.5 de secunde"}, -- Lil Brimstone
-	{"276", "Inima lui Isaac", "Isaac devine invincibil#Oferă un familiar inimă ce il urmărește pe Issaac#{{Warning}} Dacă familiarul este lovit, Isaac va fi vătămat"}, -- Isaac's Heart
-	{"277", "Micul Bântuit", "{{Fear}} Urmărește și provoacă teamă inamicilor#Provoacă 4 daue pe secundă"}, -- Lil Haunt
-	{"278", "Cerșetor îtunecat", "{{Heart}} Culege inimile roși din apropiere#{{SoulHeart}} Oferă Inimi Suflet sau păianjeni pentru fiecare 1.5 inimi colectate"}, -- Dark Bum
-	{"279", "Fan mare", "Orbital mare#Provoacă 30 de daune de contact pe secundă"}, -- Big Fan
+	{"275", "Micul Brimstone", "{{Chargeable}} Familiar care încarcă și aruncă cu {{Collectible118}} Brimstone#Provoacă 31.5 daune pe durata a 31.5 de secunde"}, -- Lil Brimstone
+	{"276", "Inima lui Isaac", "Isaac devine invincibil#Oferă un familiar inimă ce îl urmărește pe Issaac#{{Warning}} Dacă familiarul este lovit, Isaac va fi vătămat"}, -- Isaac's Heart
+	{"277", "Micul Bântuit", "{{Fear}} Urmărește și provoacă teamă inamicilor#Provoacă 4 daune pe secundă"}, -- Lil Haunt
+	{"278", "Cerșetor Întunecat", "{{Heart}} Culege inimile roși din apropiere#{{SoulHeart}} Oferă Inimi Suflet sau păianjeni pentru fiecare 1.5 inimi colectate"}, -- Dark Bum
+	{"279", "Fan Mare", "Orbital mare#Provoacă 30 de daune de contact pe secundă"}, -- Big Fan
 	{"280", "Sissy Picioare Mari", "Oferă păianjeni albaștrii aleatoriu în camerele neterminate"}, -- Sissy Longlegs
-	{"281", "Sac de Box", "Familiar momeală#Inamicii sunt atrași de el inloc de Isaac"}, -- Punching Bag
+	{"281", "Sac de Box", "Familiar momeală#Inamicii sunt atrași de el în locul Isaac"}, -- Punching Bag
 	{"282", "Cum să sari", "Isaac poate sări peste găuri și obstacole"}, -- How to Jump
-	{"283", "D100", "Înlocuiește pickupruile, piedestalele din cameră și itemele pasive a le lui Isaac"}, -- D100
+	{"283", "D100", "Înlocuiește pickup-urile, piedestalele din cameră și itemele pasive ale lui Isaac"}, -- D100
 	{"284", "D4", "Înlocuiește toate itemele pasive a le lui Isaac"}, -- D4
-	{"285", "D10", "Înlocuiește inamicii din cameră"}, -- D10
+	{"285", "D10", "Înlocuiește inamicii din cameră cu unii mai slabi"}, -- D10
 	{"286", "Carte Albă", "Declanșează efectul cărții sau runei pe care Isaac o deține fără a o folosi"}, -- Blank Card
 	{"287", "Cartea Secretelor", "{{Timer}} Oferă pe durata etajului un efect dintre:#{{Collectible54}} Harta Comorilor#{{Collectible21}} Busolă#{{Collectible246}} Hartă Albastră"}, -- Book of Secrets
-	{"288", "BCutie cu Păianjeni", "Oferă 1-4 păianjeni albaștrii"}, -- Box of Spiders
+	{"288", "Cutie cu Păianjeni", "Oferă 1-4 păianjeni albaștrii"}, -- Box of Spiders
 	{"289", "Lumânare Roșie", "Aruncă cu un foc roșu#Cauzează pagube, blochează proiectilele și dispare după a cauzat pagube sau a blocat 5 proiectile"}, -- Red Candle
 	{"290", "Borcanul", "{{Heart}} Colecteză până la 4 inimi roșii când viața este plină#Aruncă toate inimile colectate când este folosit"}, -- The Jar
 	{"291", "Flush!", "Transformă toți inamicii non-boss în rahat#Omoară instant toți inamicii și bossi rahat"}, -- Flush!
@@ -316,31 +316,31 @@ EID.descriptions[languageCode].collectibles={
 	{"293", "Capul lui Krampus", "{{Collectible118}} Trage cu o undă Brimstone în 4 direcții#Fiecare undă cauzează 440 de daune pe perioada a 1.33 de secunde"}, -- Head of Krampus
 	{"294", "Fasole Lima", "Aruncă proiectilele și inamicii#10% șansă sa se transforme în {{Collectible484}} Stai ce? când este înlocuit cu alt item și colectat din nou"}, -- Butter Bean
 	{"295", "Degete Magice", "Provoacă 2x daunele lui Isaac tuturor inamicilor#{{Coin}} Costă 1 bănuț"}, -- Magic Fingers
-	{"296", "Converter", "{{Heart}} Converts 2 Soul/Black Hearts into 1 heart container"}, -- Converter
+	{"296", "Convertor", "{{Heart}} Convertează 2 Inimi Suflet/Negre într-un container"}, -- Converter
 	-- NOTE FOR LOCALIZERS: There is code to highlight the text of your current floor
 	-- For it to work, only use line breaks or semicolons to separate floor details, and use the same order as English
-	{"297", "Pandora's Box", "{{NoLB}}Spawns rewards based on floor:#B1: 2{{SoulHeart}}; B2: 2{{Bomb}} + 2{{Key}}#{{NoLB}}C1: Boss item; C2: C1 + 2{{SoulHeart}}#D1: 4{{SoulHeart}}; D2: 20{{Coin}}#W1: 2 Boss items#W2: {{Collectible33}} The Bible#???/Void: Nothing#Sheol: Devil item + 1{{BlackHeart}}#Cathe: Angel item + 1{{EternalHeart}}#{{NoLB}}Dark Room: Unlocks {{Collectible523}} Moving Box#Chest: 1{{Coin}}"}, -- Pandora's Box
-	{"298", "Unicorn Stump", "{{Timer}} Receive for 6 seconds:#↑ {{Speed}} +0.28 Speed#Invincibility#Isaac can't shoot (No contact damage)"}, -- Unicorn Stump
-	{"299", "Taurus", "↓ {{Speed}} -0.3 Speed#↑ {{Speed}} Slowly gain speed while in hostile rooms#At 2 speed, Isaac becomes invincible and deals contact damage#Afterwards, lose the Taurus speed boost for the room"}, -- Taurus
-	{"300", "Aries", "↑ {{Speed}} +0.25 Speed#Touching enemies deals contact damage"}, -- Aries
-	{"301", "Cancer", "{{SoulHeart}} +3 Soul Hearts#Taking damage reduces all future damage in the room to half a heart"}, -- Cancer
-	{"302", "Leo", "Size up#Isaac can destroy rocks by walking into them"}, -- Leo
-	{"303", "Virgo", "Taking damage can make Isaac temporarily invincible#{{Luck}} 100% chance at 10 luck#{{Pill}} Converts negative pills into positive ones"}, -- Virgo
-	{"304", "Libra", "+6 {{Coin}} coins, {{Bomb}} bombs and {{Key}} keys#Balances Isaac's stats#Future stat changes will be spread across all stats"}, -- Libra
-	{"305", "Scorpio", "{{Poison}} Poison tears"}, -- Scorpio
-	{"306", "Sagittarius", "↑ {{Speed}} +0.2 Speed#Piercing tears"}, -- Sagittarius
-	{"307", "Capricorn", "↑ {{Heart}} +1 Health#↑ {{Speed}} +0.1 Speed#↑ {{Tears}} -1 Tear delay#↑ {{Damage}} +0.5 Damage#↑ {{Range}} +1.5 Range#+1 {{Coin}} coin, {{Bomb}} bomb and {{Key}} key"}, -- Capricorn
-	{"308", "Aquarius", "Isaac leaves a trail of creep#The creep deals 6 damage per second"}, -- Aquarius
-	{"309", "Pisces", "↑ {{Tears}} -1 Tear delay#↑ {{Tearsize}} x1.25 Tear size#Increases tear knockback"}, -- Pisces
-	{"310", "Eve's Mascara", "↑ {{Damage}} x2 Damage multiplier#↓ {{Tears}} x0.5 Tears multiplier#↓ {{Shotspeed}} -0.5 Shot speed"}, -- Eve's Mascara
-	{"311", "Judas' Shadow", "{{Player12}} When dead, respawn as Dark Judas with a x2 damage multiplier"}, -- Judas' Shadow
-	{"312", "Maggy's Bow", "↑ {{Heart}} +1 Health#{{HealingRed}} Heals 1 heart#All Red Hearts heal double their value"}, -- Maggy's Bow
-	{"313", "Holy Mantle", "Negates the first hit taken once per room"}, -- Holy Mantle
-	{"314", "Thunder Thighs", "↑ {{Heart}} +1 Health#↓ {{Speed}} -0.4 Speed#Isaac can destroy rocks by walking into them"}, -- Thunder Thighs
-	{"315", "Strange Attractor", "Isaac's tears attract enemies, pickups and trinkets"}, -- Strange Attractor
-	{"316", "Cursed Eye", "Charged wave of 4 tears#{{Warning}} Taking damage while partially charged teleports Isaac to a random room"}, -- Cursed Eye
-	{"317", "Mysterious Liquid", "Isaac's tears leave creep#The creep deals 30 damage per second"}, -- Mysterious Liquid
-	{"318", "Gemini", "Close combat familiar#Deals 6 contact damage per second"}, -- Gemini
+	{"297", "Cutia Pandorei", "{{NoLB}}Apar recompense în funcție de etaj:#B1: 2{{SoulHeart}}; B2: 2{{Bomb}} + 2{{Key}}#{{NoLB}}C1: Un Articol de Boss; C2: C1 + 2{{SoulHeart}}#D1: 4{{SoulHeart}}; D2: 20{{Coin}}#W1: 2 Articole de Boss#W2: {{Collectible33}} Biblia#???/Vid: Nimic#Sheol: Articol-Diavol + 1{{BlackHeart}}#Cathe: Articol-Înger + 1{{EternalHeart}}#{{NoLB}}Cameră Neagră: Deblocabile {{Collectible523}} Cutia Mișcătoare#Cutie: 1{{Coin}}"}, -- Pandora's Box
+	{"298", "Șchiopătarea Unicornului", "{{Timer}} Primește pentru 6 secunde:#↑ {{Speed}} +0.28 Speed#Invincibilitate#Isaac nu poate să tragă (Fără daune de contact)"}, -- Unicorn Stump
+	{"299", "Taur", "↓ {{Speed}} -0.3 Viteză#↑ {{Speed}} Primește viteză încet în camere ostile#La viteza 2 , Isaac devine invincibil și dă daune de contact#După aceea, pierde boostul de viteză Taur în cameră"}, -- Taurus
+	{"300", "Berbec", "↑ {{Speed}} +0.25 Viteză#Atingând inamicii dai daune de contact"}, -- Aries
+	{"301", "Rac", "{{SoulHeart}} +3 Inimi suflet#Luând daune reduce toate daunele viitoare în cameră la jumătate de inimă"}, -- Cancer
+	{"302", "Leu", "Te mărești#Isaac poate distruge pietre când intră în ele"}, -- Leo
+	{"303", "Fecioară", "Primind daune Isaac poate deveni invincibil temporar#{{Luck}} 100% șansă la 10 noroc#{{Pill}} Convertează pastilele negative în unele pozitive"}, -- Virgo
+	{"304", "Balanță", "+6 {{Coin}} bănuți, {{Bomb}} bombe și {{Key}} chei#Balansează statisticile lui Isaac#Schimbările următoare de statistici vor fi împărțite tuturor statisticilor"}, -- Libra
+	{"305", "Scorpion", "{{Poison}} Lacrimi Otrăvite"}, -- Scorpio
+	{"306", "Săgetător", "↑ {{Speed}} +0.2 Viteză#Lacrimi Pătrunzătoare"}, -- Sagittarius
+	{"307", "Capricorn", "↑ {{Heart}} +1 Viață#↑ {{Speed}} +0.1 Viteză#↑ {{Tears}} -1 Întârziere a lacrimilor#↑ {{Damage}} +0.5 Daune#↑ {{Range}} +1.5 Distanță#+1 {{Coin}} ban, {{Bomb}} bombă și {{Key}} cheie"}, -- Capricorn
+	{"308", "Vărsător", "Isaac lasă o dâră de fluid#Fluidul dă 6 daune pe secundă"}, -- Aquarius
+	{"309", "Pești", "↑ {{Tears}} -1 Întârziere a lacrimilor#↑ {{Tearsize}} x1.25 Mărimea lacrimilor#Mărește împingerea lacrimilor"}, -- Pisces
+	{"310", "Rimelul Evei", "↑ {{Damage}} x2 Daune#↓ {{Tears}} x0.5 Viteză de Atac#↓ {{Shotspeed}} -0.5 Viteza Lacrimilor"}, -- Eve's Mascara
+	{"311", "Umbra lui Iuda", "{{Player12}} La moarte reînvii ca Iuda-ul Negru cu x2 daune"}, -- Judas' Shadow
+	{"312", "Papionul lui Maggy", "↑ {{Heart}} +1 Viață#{{HealingRed}} Vindecă 1 inimă#Toate Inimile Roșii vindecă dublu valoarea lor"}, -- Maggy's Bow
+	{"313", "Mantaua Sfântă", "Neagă primul atac primit o dată pe cameră"}, -- Holy Mantle
+	{"314", "Coapse de Tunet", "↑ {{Heart}} +1 Viață#↓ {{Speed}} -0.4 Viteză#Isaac poate distruge pietre când merge în ele"}, -- Thunder Thighs
+	{"315", "Atractor Ciudat", "Lacrimile lui Isaac atrag inamici, lucruri și bibelouri"}, -- Strange Attractor
+	{"316", "Ochi Blestemat", "Val încărcat de 4 lacrimi#{{Warning}} Primind daune când e încărcat parțial îl teleportează pe Isaac într-o cameră aleatorie"}, -- Cursed Eye
+	{"317", "Lichid Misterios", "Lacrimile lui Isaac lasă fluid#Fluidul dă 30 daune pe secundă"}, -- Mysterious Liquid
+	{"318", "Gemeni", "Familiar care luptă de aproape#Dă 6 daune de contact pe secundă"}, -- Gemini
 	{"319", "Cain's Other Eye", "Bounces around the room#Low accuracy tears that deal Isaac's damage"}, -- Cain's Other Eye
 	{"320", "???'s Only Friend", "Controllable fly#Deals 37.5 contact damage per second"}, -- ???'s Only Friend
 	{"321", "Samson's Chains", "Draggable ball that can destroy rocks#Deals 10.7 contact damage per second"}, -- Samson's Chains
