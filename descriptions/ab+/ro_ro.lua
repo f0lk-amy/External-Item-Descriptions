@@ -553,27 +553,27 @@ EID.descriptions[languageCode].collectibles={
 	{"528", "Angelic Prism", "Orbital prism#Friendly tears hitting it split into 4"}, -- Angelic Prism
 	{"529", "Pop!", "Isaac's tears bounce off each other and disappear when they stop moving"}, -- Pop!
 	{"530", "Death's List", "Killing enemies in the order dictated by the mark {{DeathMark}} above them grants a random pickup or stat increase"}, -- Death's List
-	{"531", "Haemolacria", "↑ {{Damage}} x1.31 Damage multiplier#↓ {{Tears}} x0.5 Tears multiplier#↓ {{Tears}} +10 Tear delay#Isaac's tears fly in an arc and burst into smaller tears on impact"}, -- Haemolacria
-	{"532", "Lachryphagy", "Isaac's tears progressively slow down, stop, then explode into 8 smaller tears#Tears can merge and become bigger"}, -- Lachryphagy
-	{"533", "Trisagion", "Replaces Isaac's tears with piercing beams of light#The beams deal 33% damage but can hit enemies multiple times"}, -- Trisagion
-	{"534", "Schoolbag", "Allows Isaac to hold 2 active items#The items can be swapped using the Drop button ({{ButtonRT}})"}, -- Schoolbag
-	{"535", "Blanket", "{{Heart}} Heals 1 heart#{{SoulHeart}} +1 Soul Heart#{{HolyMantle}} Entering a boss room grants a Holy Mantle shield (prevents damage once)"}, -- Blanket
-	{"536", "Sacrificial Altar", "Sacrifices up to 2 familiars and spawns a devil item for each sacrifice#{{Coin}} Turns blue spiders/flies into coins"}, -- Sacrificial Altar
-	{"537", "Lil Spewer", "{{Pill}} Spawns a random pill on pickup#Fires a line of creep#The type of creep changes with each pill use"}, -- Lil Spewer
-	{"538", "Marbles", "{{Trinket}} Spawns 3 random trinkets#{{Collectible479}} Taking damage has a 10% chance to consume Isaac's held trinket and grant its effects permanently"}, -- Marbles
-	{"539", "Mystery Egg", "Taking damage spawns a charmed enemy#Spawns stronger friends the more rooms are cleared without taking damage"}, -- Mystery Egg
-	{"540", "Flat Stone", "Isaac's tears bounce off the floor and cause splash damage on every bounce"}, -- Flat Stone
-	{"541", "Marrow", "{{Heart}} Spawns 3 Red Hearts#{{EmptyBoneHeart}} +1 Bone Heart"}, -- Marrow
-	{"542", "Slipped Rib", "Orbital#Reflects enemy projectiles"}, -- Slipped Rib
-	{"543", "Hallowed Ground", "Taking damage spawns a white poop#While inside the poop's aura:#↑ {{Tears}} x2 Tears multiplier#Chance to block damage"}, -- Hallowed Ground
-	{"544", "Pointy Rib", "Levitates in front of Isaac#Deals 6x Isaac's damage per second"}, -- Pointy Rib
-	{"545", "Book of the Dead", "Spawns a bone orbital or charmed bony per enemy killed in the room (up to 8)"}, -- Book of the Dead
-	{"546", "Dad's Ring", "Grants an aura that petrifies enemies"}, -- Dad's Ring
-	{"547", "Divorce Papers", "↑ {{Tears}} +0.7 Tears#{{EmptyBoneHeart}} +1 Bone Heart#{{Trinket21}} Spawns the Mysterious Paper trinket"}, -- Divorce Papers
-	{"548", "Jaw Bone", "Boomerang-like familiar#Deals 7 contact damage#Can grab and bring back pickups"}, -- Jaw Bone
-	{"549", "Brittle Bones", "{{EmptyBoneHeart}} Replaces all of Isaac's Red Heart containers with 6 empty Bone Hearts#Upon losing a Bone Heart:#↑ {{Tears}} +0.5 Tears#Shoots 8 bone tears in all directions"}, -- Brittle Bones
-	{"550", "Broken Shovel", "Mom's Foot constantly tries to stomp Isaac#Using the item stops the stomping for the room (or one Boss Rush wave)#{{Warning}} (Try to beat Boss Rush with it!)"}, -- Broken Shovel
-	{"551", "Broken Shovel", "Completes Mom's Shovel#{{Warning}} Use the shovel on the mound of dirt in the \"Dark Room\""}, -- Broken Shovel
+	{"531", "Hemolacrie", "↑ {{Damage}} x1.31 Daune#↓ {{Tears}} x0.5 Viteză de atac#↓ {{Tears}} +10 Întârziere a lacrimilor#Lacrimile lui Isac sunt arcuite și explodează în lacrimi mai mici la impact"}, -- Haemolacria
+	{"532", "Lacrifagie", "Lacrimile Lui Isaac încetinesc până la oprire după explodează în 8 lacrimi mai mici#Lacrimile se pot unii și să devină mai mari"}, -- Lachryphagy
+	{"533", "Trisagion", "Înlocuiește lacrimile lui Isaac cu o undă de lumină care penetrează inamicii#Unda provoacă 33% din daunele lui Isaac, dar poate lovi de mai multe ori inamicul"}, -- Trisagion
+	{"534", "Ghiozdan", "Isaac poate ține 2 iteme active#Itemele pot fi schimbate cu CTRL ({{ButtonRT}})"}, -- Schoolbag
+	{"535", "Pătură", "{{Heart}} Vindecă o inimă#{{SoulHeart}} +1 Inimă Suflet#{{HolyMantle}} În Camera Șefului primești Holy Mantle"}, -- Blanket
+	{"536", "Altar de Sacrificare", "Sacrifică până la 2 familiari și oferă un item din Camera Diavolului pentru fiecare Familiar sacrificat#{{Coin}} Transformă păianjenii și multele albastre în bănuți"}, -- Sacrificial Altar
+	{"537", "Micul Spewer", "{{Pill}} Oferă o pastilă când este colectat#Scuipă o baltă dreaptă#Tipul bălți se schimbă cu fiecare pastilă folosită"}, -- Lil Spewer
+	{"538", "Bile", "{{Trinket}} Oferă 3 trinket-uri la aleatori#{{Collectible479}} 10% șansă ca trinket-ul să fie consumat și efectul lui să deină permanent când Isaac este vătămat"}, -- Marbles
+	{"539", "Ou Misterios", "Vătămarea oferă un inamic prietenos#Oferă inamici mai puternici cu cât mai multe camere au fost curățate fără a fi vătămat"}, -- Mystery Egg
+	{"540", "Piatră Plată", "Lacrimile lui Isaac sar pe pământ și cauzează daune la fiecare săritură"}, -- Flat Stone
+	{"541", "Măduvă", "{{Heart}} Oferă 3 Inimi Roșii#{{EmptyBoneHeart}} +1 Inimă Os"}, -- Marrow
+	{"542", "Coastă Alunecoasă", "Orbital#Reflectă proiectilele inamicilor"}, -- Slipped Rib
+	{"543", "Rahat Binecuvântat", "Vătămarea oferă un rahat alb#În interiorul aurei primești:#↑ {{Tears}} x2 Viteză de atac#Șansă sa oprească vătămarea"}, -- Hallowed Ground
+	{"544", "Cosastă Ascuțită", "Levitează în fața lui Isaac#Provoacă 6x din daunele lui Isaac pe secundă"}, -- Pointy Rib
+	{"545", "Cartea Morților", "Oferă un orbital os sau un bony prietenos per inamic omorât în cameră (maxim 8)"}, -- Book of the Dead
+	{"546", "Inelul Tatei", "Oferă o aură care piretifică inamicii"}, -- Dad's Ring
+	{"547", "Certificat de Deces", "↑ {{Tears}} +0.7 Lacrimi#{{EmptyBoneHeart}} +1 Inimă Os#{{Trinket21}} Oferă trinket-ul Hârtia Misterioasă"}, -- Divorce Papers
+	{"548", "Mandibulă", "Familiar boomerang#Provoacă 7 daune de contact pe secundă#Poate să aducă pickup-uri înapoi"}, -- Jaw Bone
+	{"549", "Oase Fragile", "{{EmptyBoneHeart}} Înlocuiește toate spațile de Inimile Roși a le lui Isaac cu 6 Inimi Os#La păierderea undei Inimi Os:#↑ {{Tears}} +0.5 Lacrimi#Aruncă cu 8 bucăți de oase im toate direcțile"}, -- Brittle Bones
+	{"550", "Lopată Stricată", "Piciorul mamei cade constant pe Isaac#Folosirea itemului oprește picioul pe durata camerei (sau o rundă la Boss Rush )#{{Warning}} (Finalizează beat Boss Rush cu ea!)"}, -- Broken Shovel
+	{"551", "Lopată Stricată", "Completeză Lopata Mamei#{{Warning}} Folosește lopata pe bucata de pământ în \"Dark Room\""}, -- Broken Shovel
 	{"552", "Lopata Mamei", "Deschide o trapă către următorul etaj#10% șansă pentru {{LadderRoom}} beci#{{Warning}} Folosește lopata pe pământ în \"Dark Room\""}, -- Mom's Shovel
 	}
 ---------- Modifiers ----------
@@ -970,8 +970,7 @@ EID.descriptions[languageCode].pills={
 	{"4", "Explosive Diarrhea", "Isaac quickly spawns 5 lit bombs"}, -- Explosive Diarrhea
 	{"5", "Full Health", "{{HealingRed}} Fully heals all heart containers"}, -- Full Health
 	{"6", "Health Down", "↓ {{EmptyHeart}} -1 Health#Becomes a Health Up pill at 0 or 1 heart containers"}, -- Health Down
-	{"7", "Health Up", "↑ {{EmptyHeart}} +1 Empty heart container"}, -- Health Up
-	{"8", "I Found Pills", "No effect"}, -- I Found Pills
+	{"7", "Health Up", "↑ {{EmptyHeart}} +1 Empty heart container"}, -- Health Upz
 	{"9", "Puberty", "No effect#Eating 3 grants the Adult transformation:#↑ {{Heart}} +1 Health"}, -- Puberty
 	{"10", "Pretty Fly", "+1 Fly orbital"}, -- Pretty Fly
 	{"11", "Range Down", "↓ {{Range}} -2 Range"}, -- Range Down
