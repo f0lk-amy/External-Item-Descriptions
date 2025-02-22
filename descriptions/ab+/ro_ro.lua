@@ -540,19 +540,19 @@ EID.descriptions[languageCode].collectibles={
 	{"515", "Mystery Gift", "Spawns a random item from the current room's item pool#Chance to spawn Lump of Coal or The Poop instead"}, -- Mystery Gift
 	{"516", "Sprinkler", "Spawns a Sprinkler that shoots the same tears as Isaac in a circle around itself"}, -- Sprinkler
 	{"517", "Fast Bombs", "{{Bomb}} +7 Bombs#Removes the delay between bomb placements"}, -- Fast Bombs
-	{"518", "Buddy in a Box", "Familiar which looks like a random co-op baby#Has random tear effects#Effects change every floor"}, -- Buddy in a Box
-	{"519", "Lil Delirium", "Transforms into a random familiar every 10 seconds"}, -- Lil Delirium
-	{"520", "Jumper Cables", "Killing 15 enemies adds 1 charge to the active item"}, -- Jumper Cables
-	{"521", "Coupon", "Makes one random item in the {{Shop}} Shop or {{DevilRoom}} Devil Room free#Holding the item guarantees one Shop item is on sale"}, -- Coupon
-	{"522", "Telekinesis", "Stops all enemy projectiles that come close to Isaac for 3 seconds and throws them away from him afterwards"}, -- Telekinesis
-	{"523", "Moving Box", "Stores all pickups and items from the current room#Using the item again drops everything back on the floor#Allows Isaac to move things between rooms"}, -- Moving Box
-	{"524", "Technology Zero", "Isaac's tears are connected with beams of electricity#The beams deal Isaac's damage"}, -- Technology Zero
-	{"525", "Leprosy", "Taking damage spawns a projectile blocking orbital#Caps at 3 orbitals#They deal 35 contact damage per second#Orbitals are destroyed if they take too much damage"}, -- Leprosy
-	{"526", "7 Seals", "Spawns a small horseman familiar that spawns locusts#The horseman and its locust changes every 10 seconds"}, -- 7 Seals
-	{"527", "Mr. ME!", "Displays a movable cursor for a few seconds, then summons a ghost that will, depending on the cursor position:#Open doors or chests#Fetch an item#50% chance to steal from the Shop / Devil#Attack an enemy until it dies#Explode walls, rocks, shopkeepers, angel statues, machines, beggars"}, -- Mr. ME!
-	{"528", "Angelic Prism", "Orbital prism#Friendly tears hitting it split into 4"}, -- Angelic Prism
-	{"529", "Pop!", "Isaac's tears bounce off each other and disappear when they stop moving"}, -- Pop!
-	{"530", "Death's List", "Killing enemies in the order dictated by the mark {{DeathMark}} above them grants a random pickup or stat increase"}, -- Death's List
+	{"518", "Prieten într-o Cutie", "Familiar care arată ca un bebeluș co-op aleatoriu#Efectele lacrimilor aleatorii#Efectele se schimbă la fiecare etaj"}, -- Buddy in a Box
+	{"519", "Micul Delirium", "Se transformă într-un familiar la fiecare 10 secunde"}, -- Lil Delirium
+	{"520", "Cabluri de Pornire", "Omorârea a 15 inamici oferă 1 încărcare la itemul activ"}, -- Jumper Cables
+	{"521", "Coupon", "Face un item la întâmplare din {{Shop}} Magazin sau {{DevilRoom}} Camera Diavolului gratis#Dacă este ținut, un item din Magazin este redus"}, -- Coupon
+	{"522", "Telekineză", "Oprește toate proiectilele care se aproprie de Isaac pentru 3 secunde, după le aruncă înapoi"}, -- Telekinesis
+	{"523", "Cutie de Mutare", "Colectează toate pickup-urile si itemele din cameră#Folosirea itemului din nou readuce toate obiectele colectate înapoi#Îi permite lui Isaac să mute lucruri printre camere"}, -- Moving Box
+	{"524", "Technologie Zero", "Lacrimile lui Isaac sunt conectate cu rază electricitate#Raza provoacă daunele lui Isaac"}, -- Technology Zero
+	{"525", "Lepră", "Vătămarea oferă un orbital care blochează proiectilele#Maxim 3 orbitali#Provoacă 35 de daune pe secundă#Orbitalele se distrug dacă sunt vătămate prea mult"}, -- Leprosy
+	{"526", "7 Sigilii", "Oferă un călăreț mic care produce lăcuste#Călărețul și lăcustele se schimbă la fiecare 10 secunde"}, -- 7 Seals
+	{"527", "Dl. EU!", "Oferă un cursor pentru câteva secunde după o fantomă apare care(depinde de poziția cursorului):#Deschide o ușă sau un cufăr#Ia un item#50% șansă să fure un item din magazin / Camera Diavolului#Atacă in inamic până moare#Distruge pereții, pietrele, negustorii, statuile înger, aparatele, cerșetorii"}, -- Mr. ME!
+	{"528", "Prism Angelic", "Orbital#Lacrimile preitenoase care il ating se împart în 4"}, -- Angelic Prism
+	{"529", "Pop!", "Lacrimile lui Isaac se izbescu unele de altele și dispar când nu se mai mișcă"}, -- Pop!
+	{"530", "Lista Morții", "Omorârea inamicilor în ordinea indicată de semul {{DeathMark}} care este deasupra insamicilor oferă statstici aleatorii"}, -- Death's List
 	{"531", "Hemolacrie", "↑ {{Damage}} x1.31 Daune#↓ {{Tears}} x0.5 Viteză de atac#↓ {{Tears}} +10 Întârziere a lacrimilor#Lacrimile lui Isac sunt arcuite și explodează în lacrimi mai mici la impact"}, -- Haemolacria
 	{"532", "Lacrifagie", "Lacrimile Lui Isaac încetinesc până la oprire după explodează în 8 lacrimi mai mici#Lacrimile se pot unii și să devină mai mari"}, -- Lachryphagy
 	{"533", "Trisagion", "Înlocuiește lacrimile lui Isaac cu o undă de lumină care penetrează inamicii#Unda provoacă 33% din daunele lui Isaac, dar poate lovi de mai multe ori inamicul"}, -- Trisagion
@@ -1041,10 +1041,10 @@ EID.descriptions[languageCode].CharacterInfo = {
 EID.descriptions[languageCode].sacrificeHeader = "[Next Sacrifice Room payout]"
 
 EID.descriptions[languageCode].sacrifice={
-	{"1", "", "{{Coin}} 50% chance for 1 coin#{{Bomb}} 100% chance for 1 bomb, when on B1 and killed the boss under 1 minute"},
+	{"1", "", "{{Coin}} 50% șansă pentru 1 bănuț#{{Bomb}} 100% șansă pentru 1 bombă dacă boss-ul din B1 a fost bătut în mai puțin de 1 minut"},
 	{"2", "", "{{Coin}} 50% chance for 1 coin#{{Bomb}} 100% chance for 1 bomb, when on B1 and killed the boss under 1 minute"},
-	{"3", "", "{{AngelChance}} 67% chance for increased Angel Room chance"},
-	{"4", "", "{{Chest}} 50% chance for 1 random chest"},
+	{"3", "", "{{AngelChance}} 67% șansă ca șansa pentru Camera Îngerului să crească"},
+	{"4", "", "{{Chest}} 50% șansă pentru 1 cufăr"},
 	{"5", "", "{{Coin}} 33% chance for 3 coins#{{AngelChance}} 67% chance for increased Angel Room chance"},
 	{"6", "", "{{AngelRoom}} 33% chance for a teleport to the Angel Room#{{DevilRoom}} Teleports to the Devil Room instead if its door was spawned on the current floor#{{Chest}} 67% chance for random chest"},
 	{"7", "", "{{AngelRoom}} 33% chance for 1 random Angel Room item#{{SoulHeart}} 67% chance for 1 Soul Heart"},
