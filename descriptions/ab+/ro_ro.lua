@@ -537,9 +537,9 @@ EID.descriptions[languageCode].collectibles={
 	{"512", "Black Hole", "Throwable black hole, which sucks in everything#Deals 6 damage per second#Destroys nearby rocks#Lasts 6 seconds"}, -- Black Hole
 	{"513", "Bozo", "↑ {{Damage}} +0.1 Damage#{{SoulHeart}} +1 Soul Heart#{{Charm}} Randomly charms/fears enemies#Taking damage has a random chance to spawn a Rainbow Poop"}, -- Bozo
 	{"514", "Broken Modem", "Causes some enemies and projectiles to briefly pause at random intervals#25% chance to double room clear drops"}, -- Broken Modem
-	{"515", "Mystery Gift", "Spawns a random item from the current room's item pool#Chance to spawn Lump of Coal or The Poop instead"}, -- Mystery Gift
-	{"516", "Sprinkler", "Spawns a Sprinkler that shoots the same tears as Isaac in a circle around itself"}, -- Sprinkler
-	{"517", "Fast Bombs", "{{Bomb}} +7 Bombs#Removes the delay between bomb placements"}, -- Fast Bombs
+	{"515", "Cadou Misterios", "Oferă un item din pool-ul în care este deschis#Șansă să ofere O Bucată de Cărbune sau Rahatul"}, -- Mystery Gift
+	{"516", "Stropitoare", "Planteză o stropitoare care aruncă cu lacrimile lui Isaac în jurul"}, -- Sprinkler
+	{"517", "Bombe Rapize", "{{Bomb}} +7 Bombe#Bombele pot fi puse una după alta"}, -- Fast Bombs
 	{"518", "Prieten într-o Cutie", "Familiar care arată ca un bebeluș co-op aleatoriu#Efectele lacrimilor aleatorii#Efectele se schimbă la fiecare etaj"}, -- Buddy in a Box
 	{"519", "Micul Delirium", "Se transformă într-un familiar la fiecare 10 secunde"}, -- Lil Delirium
 	{"520", "Cabluri de Pornire", "Omorârea a 15 inamici oferă 1 încărcare la itemul activ"}, -- Jumper Cables
