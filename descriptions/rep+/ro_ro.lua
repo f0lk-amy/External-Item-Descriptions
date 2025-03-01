@@ -62,7 +62,7 @@ EID:updateDescriptionsViaTable(trinkets, EID.descriptions[languageCode].trinkets
 
 local cards = {
 	-- Change: Complete rewrite
-	[38] = {"38", "Berkano", "{{Collectible706}} Summons 3 Abyss locusts for the room"}, -- Berkano
+	[38] = {"38", "Berkano", "{{Collectible706}} Oferă 3 lăcuste pe durata camerei"}, -- Berkano
 }
 EID:updateDescriptionsViaTable(cards, EID.descriptions[languageCode].cards)
 
@@ -72,7 +72,7 @@ EID.descriptions[languageCode].ConditionalDescs["5.100.566"] = nil -- Dream Catc
 
 -- Special Locust effects when Item was eaten by Abyss. Entries here will override the auto-generated descriptions
 local abyssSynergies = {
-	[706] = "Spawns 16 locusts with different colors and effects", -- Abyss
+	[706] = "Oferă 16 lăcuste cu efecte si culori diferite", -- Abyss
 }
 
 -- Remove all entries from Repentance file, and only add special descriptions relevant to Repentance+
