@@ -652,12 +652,12 @@ EID.descriptions[languageCode].bookOfVirtuesWisps = {
 EID.descriptions[languageCode].AbyssTexts = {
 	InfoText = "{amount} x{size}{speed} locust ({dmg})", -- values inside {} brackets will be replaced with text parts below
 	Chance = " ({1}% Chance)", -- {1} will be replaced with the chance
-	SpeedSlow = "încet", -- Speed < 1
-	SpeedFast = "rapid", -- Speed > 1
-	SpeedDash = "repezit", -- Speed >= 6
-	SizeSmall = "mic", -- Size < 1
-	SizeBig = "mare", -- Size > 1
-	DamageMult = "{1}x Daunele lui Isaac", -- {1} will be replaced with the calculated damage multiplier 
+	SpeedSlow = "slow", -- Speed < 1
+	SpeedFast = "fast", -- Speed > 1
+	SpeedDash = "dashing", -- Speed >= 6
+	SizeSmall = "small", -- Size < 1
+	SizeBig = "big", -- Size > 1
+	DamageMult = "{1}x Isaac's damage", -- {1} will be replaced with the calculated damage multiplier 
 }
 
 ---------- Abyss Locust special effects ----------
