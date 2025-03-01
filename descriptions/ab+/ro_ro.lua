@@ -530,13 +530,13 @@ EID.descriptions[languageCode].collectibles={
 	{"505", "Poke Go", "Entering a hostile room has a chance to spawn a charmed enemy"}, -- Poke Go
 	{"506", "Backstabber", "{{BleedingOut}} Hitting an enemy in the back deals double damage and causes bleeding, which deals 10% damage of the enemy's max health every 5 seconds"}, -- Backstabber
 	{"507", "Sharp Straw", "{{Damage}} Deals Isaac's damage + 10% of the enemy's max health to all enemies#{{HalfHeart}} Dealing damage with the Straw can spawn half hearts#{{HalfSoulHeart}} Having no heart containers drops Soul Hearts instead"}, -- Sharp Straw
-	{"508", "Mom's Razor", "{{BleedingOut}} Orbital that causes bleeding, which deals 10% damage of the enemy's max health every 5 seconds#{{Damage}} Deals 3x Isaac's damage per second#Does not block shots"}, -- Mom's Razor
-	{"509", "Bloodshot Eye", "Orbital that shoots a tear in a random direction every 2 seconds#Deals 3.5 damage per tear#Deals 30 contact damage per second#Does not block shots"}, -- Bloodshot Eye
-	{"510", "Delirious", "{{Timer}} Spawns a friendly delirium version of a boss for the room"}, -- Delirious
-	{"511", "Angry Fly", "Orbits a random enemy until that enemy dies#Deals 30 contact damage per second to other enemies"}, -- Angry Fly
-	{"512", "Black Hole", "Throwable black hole, which sucks in everything#Deals 6 damage per second#Destroys nearby rocks#Lasts 6 seconds"}, -- Black Hole
-	{"513", "Bozo", "↑ {{Damage}} +0.1 Damage#{{SoulHeart}} +1 Soul Heart#{{Charm}} Randomly charms/fears enemies#Taking damage has a random chance to spawn a Rainbow Poop"}, -- Bozo
-	{"514", "Broken Modem", "Causes some enemies and projectiles to briefly pause at random intervals#25% chance to double room clear drops"}, -- Broken Modem
+	{"508", "Briciul Mamei", "{{BleedingOut}} Orbital that causes bleeding, which deals 10% damage of the enemy's max health every 5 seconds#{{Damage}} Deals 3x Isaac's damage per second#Does not block shots"}, -- Mom's Razor
+	{"509", "Ochi Însângerat", "Orbital care aruncă cu o lacrimă într-o direcție aleatorie la fiecare 2 secunde#3.5 daune pe lacrimă#Provoacă 30 de daune de contact pe secundă#Nu blochează proiectilele"}, -- Bloodshot Eye
+	{"510", "Delirant", "{{Timer}} Oferă un Boss Delirium prietenos pe durata camerei"}, -- Delirious
+	{"511", "Muscă Furioasă", "Orbitează un inamic aleatoriu până moare#Provoacă 30 de daune pe secundă altor inamici"}, -- Angry Fly
+	{"512", "Gaură Neagră", "Aruncă o gaură neagră ce absoarbe totul#Provoacă 6 daune pe secundă#Distruge pietrele din apropriere#Durează 6 secunde"}, -- Black Hole
+	{"513", "Bozo", "↑ {{Damage}} +0.1 Daune#{{SoulHeart}} +1 Inimă Suflet#{{Charm}} Vrăjește/înspăimântă inamicii aleatoriu#Vătămarea are o șansă aleatorie să ofere un rahat curcubeu"}, -- Bozo
+	{"514", "Modem Stricat", "Unii inamci și proiectile sunt blocate pe o perioadă scurtă la intervale aleatorii#25% șansă să dubleze recompensa camerei"}, -- Broken Modem
 	{"515", "Cadou Misterios", "Oferă un item din pool-ul în care este deschis#Șansă să ofere O Bucată de Cărbune sau Rahatul"}, -- Mystery Gift
 	{"516", "Stropitoare", "Planteză o stropitoare care aruncă cu lacrimile lui Isaac în jurul"}, -- Sprinkler
 	{"517", "Bombe Rapize", "{{Bomb}} +7 Bombe#Bombele pot fi puse una după alta"}, -- Fast Bombs
