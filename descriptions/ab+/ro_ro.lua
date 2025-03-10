@@ -342,25 +342,25 @@ EID.descriptions[languageCode].collectibles={
 	{"317", "Lichid Misterios", "Lacrimile lui Isaac lasă fluid#Fluidul dă 30 daune pe secundă"}, -- Mysterious Liquid
 	{"318", "Gemeni", "Familiar care luptă de aproape#Provoacă 6 daune de contact pe secundă"}, -- Gemini
 	{"319", "Celălalt Ochi a lui Cain", "Se mișcă prin cameră#Lacrimi cu precizie mică care provoacă daunele lui Isaac"}, -- Cain's Other Eye
-	{"320", "Singurul prienten a lui ???", "Muscă controlaiblă#Provoacă 37.5 daune de contact pe secundă"}, -- ???'s Only Friend
+	{"320", "Singurul prieten a lui ???", "Muscă controlaiblă#Provoacă 37.5 daune de contact pe secundă"}, -- ???'s Only Friend
 	{"321", "Lanțurile lui Samson", "O bilă legată de picior care poate distruge obstacole și să blocheze proiectilele#Provoacă 10.7 daune pe secundă"}, -- Samson's Chains
 	{"322", "Bebeluș Mongo", "Copiază lacrimile de la alți familiari#Dacă nu sunt alti familiar, provoacă 3.5 daune pe lacrimă"}, -- Mongo Baby
-	{"323", "lacrimile lui Isaac", "Aruncă cu 8 lacrimi în toate directiile#Copiază efectele lacrimilor lui ISaac#Se încarcă prin tragerea de lacrimi"}, -- Isaac's Tears
-	{"324", "Nedefinit", "Îl teleporteză pe Isaac în {{TreasureRoom}} Camera Comorilor, {{SecretRoom}} Camera Secretă, {{SuperSecretRoom}} Camera Super Secretă sau {{ErrorRoom}} I AM ERROR Room"}, -- Undefined
-	{"325", "Foarfece", "{{Timer}} Capul lui Isaac devine un familiar saționar pe durata camerei#Capul trage cu lacrimi ce provoacă 3.5 daune#Corup este controalbil și trage cu lacrimile lui Isaac"}, -- Scissors
+	{"323", "lacrimile lui Isaac", "Aruncă cu 8 lacrimi în toate direcțiile#Copiază efectele lacrimilor lui Isaac#Se încarcă prin tragerea de lacrimi"}, -- Isaac's Tears
+	{"324", "Nedefinit", "Îl teleporteză pe Isaac în {{TreasureRoom}} Camera Comorilor, {{SecretRoom}} Camera Secretă, {{SuperSecretRoom}} Camera Super Secretă sau {{ErrorRoom}} Cameră SUNT O EROARE"}, -- Undefined
+	{"325", "Foarfece", "{{Timer}} Capul lui Isaac devine un familiar saționar pe durata camerei#Capul trage cu lacrimi ce provoacă 3.5 daune#Corup este controlabil și trage cu lacrimile lui Isaac"}, -- Scissors
 	{"326", "Respirația Vieții", "Ținerea butonului de folosință apăsat golește bara de încărcare#Isaac este invincibil temporar când bara de încărcare este goală#{{Warning}} Dacă butonul este apăsat prea mult Isaac este vătămat"}, -- Breath of Life
 	{"327", "Polaroidul", "Vătămarea la jumătatea de Inimă Roșie sau nici una îl face pe Isaac invincibil temporar"}, -- The Polaroid
 	{"328", "Negativul", "Vătămarea la jumătatea de Inimă Roșie sau nici una provoacă daune tuturor inamicilor din cameră"}, -- The Negative
-	{"329", "The Ludovico Technique", "Replaces Isaac's tears with one giant controllable tear"}, -- The Ludovico Technique
-	{"330", "Soy Milk", "↑ {{Tears}} x4 Tears multiplier#↑ {{Tears}} -2 Tear delay#↓ {{Damage}} x0.2 Damage multiplier#↓ {{Tearsize}} x0.5 Tear size"}, -- Soy Milk
-	{"331", "Godhead", "↑ {{Damage}} +0.5 Damage#↑ {{Range}} +1.2 Range#↑ +0.8 Tear height#↓ {{Tears}} -0.3 Tears#↓ {{Shotspeed}} -0.3 Shot speed#Homing tears#{{Damage}} Tears gain an aura that deals 4.5x Isaac's damage per second"}, -- Godhead
-	{"332", "Lazarus' Rags", "{{Player11}} When dead, revive as Lazarus (Risen)"}, -- Lazarus' Rags
-	{"333", "The Mind", "Full mapping effect"}, -- The Mind
-	{"334", "The Body", "↑ {{Heart}} +3 Health"}, -- The Body
-	{"335", "The Soul", "{{SoulHeart}} +2 Soul Hearts#Grants an aura that repels enemies and projectiles"}, -- The Soul
-	{"336", "Dead Onion", "↑ {{Range}} +0.25 Range#↑ {{Tearsize}} x1.5 Tear size#↓ -0.5 Tear height#↓ {{Shotspeed}} -0.4 Shot speed#Piercing + spectral tears"}, -- Dead Onion
-	{"337", "Broken Watch", "{{Slow}} Slows down every 4th room#13% chance to speed up the room instead"}, -- Broken Watch
-	{"338", "The Boomerang", "Throwable boomerang#Petrifies enemies and deals 2x Isaac's damage#Can grab and bring back items"}, -- The Boomerang
+	{"329", "Tehnica Ludovico", "Înlocuiește lacrimile lui Isaac cu o lacrimă gigantă controlabilă"}, -- The Ludovico Technique
+	{"330", "Lapte de Soia", "↑ {{Tears}} x4 Viteză de Atac#↑ {{Tears}} -2 Întârzierea lacrimei#↓ {{Damage}} x0.2 Daune#↓ {{Tearsize}} x0.5 Mărimea lacrimilor"}, -- Soy Milk
+	{"331", "Dumnezeire", "↑ {{Damage}} +0.5 Daune#↑ {{Range}} +1.2 Distanță#↑ +0.8 Înălțimea lacrimilor#↓ {{Tears}} -0.3 Viteză de atac#↓ {{Shotspeed}} -0.3 Viteza lacrimilor#Lacrimi Balistice#{{Damage}} Lacrimile primesc o aură care dă 4.5x daunele lui Isaac pe secundă"}, -- Godhead
+	{"332", "Zdrențele lui Lazăr", "{{Player11}} După moarte, reînvii ca Lazăr (Reînviatul)"}, -- Lazarus' Rags
+	{"333", "Mintea", "Efect de hartă plină"}, -- The Mind
+	{"334", "Trupul", "↑ {{Heart}} +3 Vieți"}, -- The Body
+	{"335", "Sufletul", "{{SoulHeart}} +2 Inimi Suflet#Primești o aură care respinge inamicii și proiectilele"}, -- The Soul
+	{"336", "Ceapă Moartă", "↑ {{Range}} +0.25 Distanță#↑ {{Tearsize}} x1.5 Mărimea Lacrimilor#↓ -0.5 Înălțimea Lacrimilor#↓ {{Shotspeed}} -0.4 Viteza Lacrimilor#Lacrimi Pătrunzătoare + Fantomatice"}, -- Dead Onion
+	{"337", "Ceasul Stricat", "{{Slow}} Incetinește inamicii la fiecare a 4-a cameră#13% șansă să grăbească camera"}, -- Broken Watch
+	{"338", "Bumerangul", "Bumerang aruncabil#Pietrifică inamicii și dă 2x daunele lui Isaac#Poate prinde și aduce lucruri"}, -- The Boomerang
 	{"339", "Safety Pin", "↑ {{Range}} +5.25 Range#↑ +0.5 Tear height#↑ {{Shotspeed}} +0.16 Shot speed#{{BlackHeart}} +1 Black Heart"}, -- Safety Pin
 	{"340", "Caffeine Pill", "↑ {{Speed}} +0.3 Speed#↑ Size down#{{Pill}} Spawns a random pill"}, -- Caffeine Pill
 	{"341", "Torn Photo", "↑ {{Tears}} +0.7 Tears#↑ {{Shotspeed}} +0.16 Shot speed"}, -- Torn Photo
