@@ -314,7 +314,7 @@ EID.descriptions[languageCode].collectibles={
 	{"291", "Flush!", "Transformă toți inamicii non-boss în rahat#Omoară instant toți inamicii și bossi rahat"}, -- Flush!
 	{"292", "Biblie Satanică", "{{BlackHeart}} +1 Inimă Neagră"}, -- Satanic Bible
 	{"293", "Capul lui Krampus", "{{Collectible118}} Trage cu o undă Brimstone în 4 direcții#Fiecare undă cauzează 440 de daune pe perioada a 1.33 de secunde"}, -- Head of Krampus
-	{"294", "Fasole Lima", "Aruncă proiectilele și inamicii#10% șansă sa se transforme în {{Collectible484}} Stai ce? când este înlocuit cu alt item și colectat din nou"}, -- Butter Bean
+	{"294", "Lintea", "Aruncă proiectilele și inamicii#10% șansă să se transforme în {{Collectible484}} Stai ce? când este înlocuit cu alt item și colectat din nou"}, -- Butter Bean
 	{"295", "Degete Magice", "Provoacă 2x daunele lui Isaac tuturor inamicilor#{{Coin}} Costă 1 bănuț"}, -- Magic Fingers
 	{"296", "Convertor", "{{Heart}} Convertează 2 Inimi Suflet/Negre într-un container"}, -- Converter
 	-- NOTE FOR LOCALIZERS: There is code to highlight the text of your current floor
@@ -345,7 +345,7 @@ EID.descriptions[languageCode].collectibles={
 	{"320", "Singurul prieten a lui ???", "Muscă controlaiblă#Provoacă 37.5 daune de contact pe secundă"}, -- ???'s Only Friend
 	{"321", "Lanțurile lui Samson", "O bilă legată de picior care poate distruge obstacole și să blocheze proiectilele#Provoacă 10.7 daune pe secundă"}, -- Samson's Chains
 	{"322", "Bebeluș Mongo", "Copiază lacrimile de la alți familiari#Dacă nu sunt alti familiar, provoacă 3.5 daune pe lacrimă"}, -- Mongo Baby
-	{"323", "lacrimile lui Isaac", "Aruncă cu 8 lacrimi în toate direcțiile#Copiază efectele lacrimilor lui Isaac#Se încarcă prin tragerea de lacrimi"}, -- Isaac's Tears
+	{"323", "Lacrimile lui Isaac", "Aruncă cu 8 lacrimi în toate direcțiile#Copiază efectele lacrimilor lui Isaac#Se încarcă prin tragerea de lacrimi"}, -- Isaac's Tears
 	{"324", "Nedefinit", "Îl teleporteză pe Isaac în {{TreasureRoom}} Camera Comorilor, {{SecretRoom}} Camera Secretă, {{SuperSecretRoom}} Camera Super Secretă sau {{ErrorRoom}} Cameră SUNT O EROARE"}, -- Undefined
 	{"325", "Foarfece", "{{Timer}} Capul lui Isaac devine un familiar saționar pe durata camerei#Capul trage cu lacrimi ce provoacă 3.5 daune#Corup este controlabil și trage cu lacrimile lui Isaac"}, -- Scissors
 	{"326", "Respirația Vieții", "Ținerea butonului de folosință apăsat golește bara de încărcare#Isaac este invincibil temporar când bara de încărcare este goală#{{Warning}} Dacă butonul este apăsat prea mult Isaac este vătămat"}, -- Breath of Life
@@ -361,10 +361,10 @@ EID.descriptions[languageCode].collectibles={
 	{"336", "Ceapă Moartă", "↑ {{Range}} +0.25 Distanță#↑ {{Tearsize}} x1.5 Mărimea Lacrimilor#↓ -0.5 Înălțimea Lacrimilor#↓ {{Shotspeed}} -0.4 Viteza Lacrimilor#Lacrimi Pătrunzătoare + Fantomatice"}, -- Dead Onion
 	{"337", "Ceasul Stricat", "{{Slow}} Incetinește inamicii la fiecare a 4-a cameră#13% șansă să grăbească camera"}, -- Broken Watch
 	{"338", "Bumerangul", "Bumerang aruncabil#Pietrifică inamicii și dă 2x daunele lui Isaac#Poate prinde și aduce lucruri"}, -- The Boomerang
-	{"339", "Safety Pin", "↑ {{Range}} +5.25 Range#↑ +0.5 Tear height#↑ {{Shotspeed}} +0.16 Shot speed#{{BlackHeart}} +1 Black Heart"}, -- Safety Pin
-	{"340", "Caffeine Pill", "↑ {{Speed}} +0.3 Speed#↑ Size down#{{Pill}} Spawns a random pill"}, -- Caffeine Pill
-	{"341", "Torn Photo", "↑ {{Tears}} +0.7 Tears#↑ {{Shotspeed}} +0.16 Shot speed"}, -- Torn Photo
-	{"342", "Blue Cap", "↑ {{Heart}} +1 Health#↑ {{Tears}} +0.7 Tears#↓ {{Shotspeed}} -0.16 Shot speed"}, -- Blue Cap
+	{"339", "Ac de Siguranță", "↑ {{Range}} +5.25 Distanță#↑ +0.5 Lungimea lacrimilor#↑ {{Shotspeed}} +0.16 Viteza Lacrimilor#{{BlackHeart}} +1 Inimă Neagră"}, -- Safety Pin
+	{"340", "Pastilă cu Cafeină", "↑ {{Speed}} +0.3 Viteză#↑ Te micșorezi#{{Pill}} Apare o pastilă aleatorie"}, -- Caffeine Pill
+	{"341", "Poză Sfâșiată", "↑ {{Tears}} +0.7 Viteză de atac#↑ {{Shotspeed}} +0.16 Viteza Lacrimilor"}, -- Torn Photo
+	{"342", "Capac Albastru", "↑ {{Heart}} +1 Viață#↑ {{Tears}} +0.7 Viteză de Atac#↓ {{Shotspeed}} -0.16 Viteza Lacrimilor"}, -- Blue Cap
 	{"343", "Latch Key", "↑ {{Luck}} +1 Luck#{{SoulHeart}} +1 Soul Heart#{{Key}} Spawns 2 keys"}, -- Latch Key
 	{"344", "Match Book", "{{BlackHeart}} +1 Black Heart#{{Bomb}} Spawns 3 bombs"}, -- Match Book
 	{"345", "Synthoil", "↑ {{Damage}} +1 Damage#↑ {{Range}} +5.25 Range#↑ +0.5 Tear height"}, -- Synthoil
