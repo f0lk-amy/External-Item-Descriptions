@@ -37,6 +37,8 @@ setmetatable(__eidEntityDescriptions,
 	end })
 ---------------------------------------------------------------------------
 -------------------------Handle API Functions -----------------------------
+EID.Pathfinder = require("features.pathfinder.luafinding")
+
 local nullVector = Vector(0,0)
 local game = Game()
 local maxCardID = Card.NUM_CARDS - 1
@@ -139,6 +141,10 @@ local dynamicSpriteCache = {} -- used to store sprite objects of collectible ico
 function EID:addCollectible(id, description, itemName, language)
 	itemName = itemName or nil
 	language = language or "en_us"
+	if id == -1 then
+		EID:WriteErrorMsg("Trying to add collectible description to id = -1, which is not allowed! (Name: "..tostring(itemName).."; Description: "..tostring(description)..")")
+		return
+	end
 	local modName = EID._currentMod
 	-- Glitched Items exception so they don't have a mod name
 	if id > 4294960000 then modName = nil end
@@ -154,6 +160,10 @@ end
 function EID:addTrinket(id, description, itemName, language)
 	itemName = itemName or nil
 	language = language or "en_us"
+	if id == -1 then
+		EID:WriteErrorMsg("Trying to add trinket description to id = -1, which is not allowed! (Name: "..tostring(itemName).."; Description: "..tostring(description)..")")
+		return
+	end
 	EID:CreateDescriptionTableIfMissing("custom", language)
 	EID.descriptions[language].custom["5.350." .. id] = {id, itemName, description, EID._currentMod}
 end
@@ -166,6 +176,10 @@ end
 function EID:addCharacterInfo(characterId, description, playerName, language)
 	playerName = playerName or "Modded Character"
 	language = language or "en_us"
+	if characterId == -1 then
+		EID:WriteErrorMsg("Trying to add character description to id = -1, which is not allowed! (Name: "..tostring(playerName).."; Description: "..tostring(description)..")")
+		return
+	end
 	EID:CreateDescriptionTableIfMissing("CharacterInfo", language)
 	EID.descriptions[language].CharacterInfo[characterId] = {playerName, description}
 end
@@ -214,6 +228,10 @@ end
 function EID:addCard(id, description, itemName, language)
 	itemName = itemName or nil
 	language = language or "en_us"
+	if id == -1 then
+		EID:WriteErrorMsg("Trying to add card description to id = -1, which is not allowed! (Name: "..tostring(itemName).."; Description: "..tostring(description)..")")
+		return
+	end
 	EID:CreateDescriptionTableIfMissing("custom", language)
 	EID.descriptions[language].custom["5.300." .. id] = {id, itemName, description, EID._currentMod}
 end
@@ -240,6 +258,10 @@ end
 function EID:addPill(id, description, itemName, language)
 	itemName = itemName or nil
 	language = language or "en_us"
+	if id == -1 then
+		EID:WriteErrorMsg("Trying to add pill description to id = -1, which is not allowed! (Name: "..tostring(itemName).."; Description: "..tostring(description)..")")
+		return
+	end
 	EID:CreateDescriptionTableIfMissing("pills", language)
 	EID:CreateDescriptionTableIfMissing("horsepills", language)
 	EID.descriptions[language].pills[id+1] = {id, itemName, description, EID._currentMod}
@@ -258,6 +280,10 @@ function EID:addHorsePill(id, description, itemName, language)
 	if not EID.isRepentance then return end
 	itemName = itemName or nil
 	language = language or "en_us"
+	if id == -1 then
+		EID:WriteErrorMsg("Trying to add horsepill description to id = -1, which is not allowed! (Name: "..tostring(itemName).."; Description: "..tostring(description)..")")
+		return
+	end
 	EID:CreateDescriptionTableIfMissing("horsepills", language)
 	EID.descriptions[language].horsepills[id+1] = {id, itemName, description, EID._currentMod}
 end
@@ -281,6 +307,10 @@ end
 function EID:addBirthright(characterId, description, playerName, language)
 	playerName = playerName or nil
 	language = language or "en_us"
+	if characterId == -1 then
+		EID:WriteErrorMsg("Trying to add Birthright description to id = -1, which is not allowed! (Name: "..tostring(characterId).."; Description: "..tostring(description)..")")
+		return
+	end
 	EID:CreateDescriptionTableIfMissing("birthright", language)
 	EID.descriptions[language].birthright[characterId + 1] = {playerName, "", description}
 end
@@ -407,7 +437,7 @@ end
 ---@param description string
 ---@param language? EID_LanguageCode @Default: "en_us"
 function EID:addEntity(id, variant, subtype, entityName, description, language)
-	subtype = subtype or nil
+	subtype = subtype or -1
 	language = language or "en_us"
 	if id == EntityType.ENTITY_EFFECT then
 		EID.effectList[variant] = true
@@ -527,7 +557,7 @@ function EID:loadFont(fontFileName)
 	EID.font:SetMissingCharacter(2)
 	---@diagnostic enable
 	if not EID.font:IsLoaded() then
-		Isaac.DebugString("EID - ERROR: Could not load font from '" .. EID.modPath .. "resources/font/default.fnt" .. "'")
+		EID:WriteErrorMsg("Could not load font from '" .. EID.modPath .. "resources/font/default.fnt" .. "'")
 		return false
 	end
 	return true
@@ -738,8 +768,26 @@ function EID:getDescriptionEntry(objTable, objIdentifier, noFallback)
 		else return EID.descriptions[EID:getLanguage()][objTable] or EID.descriptions["en_us"][objTable] end
 	else
 		local translatedTable = EID.descriptions[EID:getLanguage()][objTable]
-		if noFallback then return translatedTable and translatedTable[objIdentifier]
-		else return (translatedTable and translatedTable[objIdentifier]) or (EID.descriptions["en_us"][objTable] and EID.descriptions["en_us"][objTable][objIdentifier]) end
+		local description
+		if noFallback then description = translatedTable and translatedTable[objIdentifier]
+		else description = (translatedTable and translatedTable[objIdentifier]) or (EID.descriptions["en_us"][objTable] and EID.descriptions["en_us"][objTable][objIdentifier]) end
+		--Try looking for a -1 that would encompass all subtypes of the variant
+		-- Safety check for if the identifier contains "."(dot) 1-2 times and only contains numbers
+		local strNoDots, numDots = string.gsub(objIdentifier, "%.","")
+		if not description and tonumber(strNoDots) and (numDots == 1 or numDots == 2) then
+			local subtype
+			for i = string.len(objIdentifier), 1, -1 do
+				if string.sub(objIdentifier, i, i) == "." then
+					subtype = string.sub(objIdentifier, i + 1, -1)
+					objIdentifier = string.gsub(objIdentifier, "." .. subtype, "") .. ".-1"
+					if subtype ~= "-1" then
+						return EID:getDescriptionEntry(objTable, objIdentifier, noFallback)
+					end
+					break
+				end
+			end
+		end
+		return description
 	end
 end
 
@@ -1002,10 +1050,20 @@ function EID:hasDescription(entity)
 			(EID.isRepentance and EID:getEntityData(entity, "EID_FlipItemID") and EID:PlayersHaveCollectible(CollectibleType.COLLECTIBLE_FLIP)))
 	end
 	if entity.Type == 6 and entity.Variant == 16 and EID.Config["DisplayCraneInfo"] and EID.isRepentance then
-		isAllowed = not entity:GetSprite():IsPlaying("Broken") and not entity:GetSprite():IsPlaying("Prize") and not entity:GetSprite():IsPlaying("OutOfPrizes") and (EID.CraneItemType[entity.InitSeed.."Drop"..entity.DropSeed] or EID.CraneItemType[tostring(entity.InitSeed)])
+		if REPENTOGON then
+			isAllowed = not entity:GetSprite():IsPlaying("Broken") and not entity:GetSprite():IsPlaying("OutOfPrizes") and entity:ToSlot():GetPrizeCollectible() ~= -1 			
+		else
+			isAllowed = not entity:GetSprite():IsPlaying("Broken") and not entity:GetSprite():IsPlaying("OutOfPrizes") and (EID.CraneItemType[entity.InitSeed.."Drop"..entity.DropSeed] or EID.CraneItemType[tostring(entity.InitSeed)])
+		end
+
 	end
 	if entity.Type == 1000 then
-		if (entity.Variant == 161 and entity.SubType <= 2) or (entity.Variant == EffectVariant.DICE_FLOOR and EID.Config["DisplayDiceInfo"]) then
+		if entity.Variant == 161 then
+			if entity.SubType <= 2 or (EID.isRepentancePlus and entity.SubType == 3) then
+				isAllowed = true
+			end
+		end
+		if entity.Variant == EffectVariant.DICE_FLOOR and EID.Config["DisplayDiceInfo"] then
 			isAllowed = true
 		end
 	end
@@ -1263,12 +1321,21 @@ end
 ---@param text string
 ---@return string, string?
 function EID:handleBulletpointIcon(text)
-	local firstWord = EID:removeColorMarkup(string.match(text, "([^%s]+)"))
-	if EID:getIcon(firstWord) ~= EID.InlineIcons["ERROR"] and string.find(firstWord, "{{.-}}")~=nil then
-		if not EID.Config["StatAndPickupBulletpoints"] and EID.StatPickupBulletpointBlacklist[firstWord] then
-			return "\007", firstWord
+	-- Find the position where '}}' is followed by a space or letter
+	local firstMarkupPos, _ = string.find(text, "{{.-}}")
+	local startPos, endPos = string.find(text, "}}%s")
+
+	-- check if string starts with markup and has 
+	if firstMarkupPos and startPos and firstMarkupPos == 1 then
+		-- The split should be right after '}}', so adjust the position
+		local firstWord = string.sub(text, 1, endPos - 1)
+		firstWord = EID:removeColorMarkup(firstWord)
+		if EID:getIcon(firstWord) ~= EID.InlineIcons["ERROR"] and string.find(firstWord, "{{.-}}")~=nil then
+			if not EID.Config["StatAndPickupBulletpoints"] and EID.StatPickupBulletpointBlacklist[firstWord] then
+				return "\007", firstWord
+			end
+			return firstWord
 		end
-		return firstWord
 	end
 	return "\007"
 end
@@ -1583,7 +1650,7 @@ function EID:SplitTVS(tvsString)
 end
 
 ---Checks if any player has a given item ID (or anyone is a given player ID)
----@param Type string | integer | EntityType 
+---@param Type string | integer | EntityType
 ---@param Var integer | nil
 ---@param Sub integer | nil
 ---@return boolean, EntityPlayer?, integer?
@@ -3094,4 +3161,52 @@ function EID:IsItemHidden(entity)
 		return true
 	end
 	return false
+end
+
+---Returns true if the position at the given grid location is valid for pathfinding.
+---gridPosition is a table with an x and y entry. Its derived from the FindVector class of "LuaFindings" module (pathfinder)
+---@param gridPosition table
+---@return boolean
+function EID:EvaluateLocation(gridPosition)
+	local room = game:GetRoom()
+	local width = room:GetGridWidth()
+	local height = room:GetGridHeight()
+	if gridPosition.x < 1 or gridPosition.y < 1 or gridPosition.x >= height-1 or gridPosition.y >= width - 1 then
+		return false
+	end
+	local gridIndex = gridPosition.x * room:GetGridWidth() + gridPosition.y
+	-- GridPath contains a value that defines if a poisiton is walkable by the ingame pathfinder
+	-- numbers bigger 900 are considered not walkable (spikes, rocks, pits, grimaces, etc.)
+	-- numbers smaller 900 are walkable but less preferable. 0 is most preferable
+	local collision = room:GetGridPath(gridIndex)
+	return collision <= 900
+end
+
+---Returns true if an unobstructed path between the start and end position exists.
+---Obstructions can be something like Rocks, Pits, Walls, etc.
+---@param startPos Vector
+---@param endPos Vector
+---@return boolean
+function EID:HasPathToPosition(startPos, endPos)
+	-- divide by 40 to convert from world to grid coords
+	local room = game:GetRoom()
+	local width = room:GetGridWidth()
+	local startGI = room:GetGridIndex(startPos)
+	local endGI = room:GetGridIndex(endPos)
+	-- convert GridIndex into Grid X,Y coordinates and calculate path
+	local pathfinderObj = EID.Pathfinder(Vector(startGI%width, math.floor(startGI/width)), Vector(endGI%width, math.floor(endGI/width)), EID.EvaluateLocation)
+	-- return true if it has a path
+	return pathfinderObj:GetPath() ~= nil
+end
+
+---Prints a message in both the console and the Log file, to make important messages from EID stand out everywhere
+---@param str string
+function EID:WriteDebugMsg(str)
+	print(str)
+	Isaac.DebugString(str)
+end
+---Prints an error message in both the console and the Log file, to make important messages from EID stand out everywhere
+---@param str string
+function EID:WriteErrorMsg(str)
+	EID:WriteDebugMsg("EID ERROR: " .. str)
 end
