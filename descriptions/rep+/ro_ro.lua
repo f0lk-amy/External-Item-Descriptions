@@ -72,7 +72,7 @@ EID.descriptions[languageCode].ConditionalDescs["5.100.566"] = nil -- Dream Catc
 
 -- Special Locust effects when Item was eaten by Abyss. Entries here will override the auto-generated descriptions
 local abyssSynergies = {
-	[706] = "Oferă 16 lăcuste cu efecte si culori diferite", -- Abyss
+	[706] = "Oferă 16 lăcuste cu efecte și culori diferite", -- Abyss
 }
 
 -- Remove all entries from Repentance file, and only add special descriptions relevant to Repentance+
