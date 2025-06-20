@@ -365,16 +365,16 @@ EID.descriptions[languageCode].collectibles={
 	{"340", "Pastilă cu Cafeină", "↑ {{Speed}} +0.3 Viteză#↑ Te micșorezi#{{Pill}} Apare o pastilă aleatorie"}, -- Caffeine Pill
 	{"341", "Poză Sfâșiată", "↑ {{Tears}} +0.7 Viteză de atac#↑ {{Shotspeed}} +0.16 Viteza Lacrimilor"}, -- Torn Photo
 	{"342", "Capac Albastru", "↑ {{Heart}} +1 Viață#↑ {{Tears}} +0.7 Viteză de Atac#↓ {{Shotspeed}} -0.16 Viteza Lacrimilor"}, -- Blue Cap
-	{"343", "Latch Key", "↑ {{Luck}} +1 Luck#{{SoulHeart}} +1 Soul Heart#{{Key}} Spawns 2 keys"}, -- Latch Key
-	{"344", "Match Book", "{{BlackHeart}} +1 Black Heart#{{Bomb}} Spawns 3 bombs"}, -- Match Book
-	{"345", "Synthoil", "↑ {{Damage}} +1 Damage#↑ {{Range}} +5.25 Range#↑ +0.5 Tear height"}, -- Synthoil
-	{"346", "A Snack", "↑ {{Heart}} +1 Health"}, -- A Snack
-	{"347", "Diplopia", "Duplicates all item pedestals and pickups in the room"}, -- Diplopia
-	{"348", "Placebo", "{{Pill}} Triggers the effect of the pill Isaac holds without using it"}, -- Placebo
-	{"349", "Wooden Nickel", "{{Coin}} 56% chance to spawn a random coin"}, -- Wooden Nickel
-	{"350", "Toxic Shock", "{{Poison}} Entering a room poisons all enemies#Enemies killed leave a puddle of creep#The creep deals 30 damage per second"}, -- Toxic Shock
-	{"351", "Mega Bean", "Petrifies all enemies in the room#{{Poison}} Deals 5 damage and poisons any enemies nearby#Sends a rock wave in the direction Isaac is moving#The rock wave can open secret rooms and break rocks"}, -- Mega Bean
-	{"352", "Glass Cannon", "{{Warning}} Firing the cannon reduces Isaac's health down to half a heart#Shoots a large piercing + spectral tear that does 10x Isaac's damage"}, -- Glass Cannon
+	{"343", "Cheie de Zăvor", "↑ {{Luck}} +1 Noroc#{{SoulHeart}} +1 Inimă Suflet#{{Key}} Apar 2 chei"}, -- Latch Key
+	{"344", "Cutie de Chibrituri", "{{BlackHeart}} +1 Inimă Neagră#{{Bomb}} Apar 3 bombe"}, -- Match Book
+	{"345", "Ulei Sintetic", "↑ {{Damage}} +1 Daune#↑ {{Range}} +5.25 Distanță#↑ +0.5 Lungimea Lacrimilor"}, -- Synthoil
+	{"346", "O Gustare", "↑ {{Heart}} +1 Viață"}, -- A Snack
+	{"347", "Diplopia", "Duplică toate piedestalele și pickup-urile din cameră"}, -- Diplopia
+	{"348", "Placebo", "{{Pill}} Activează efectul pastilei pe care Isaac o ține fără a o folosi"}, -- Placebo
+	{"349", "Nichel de Lemn", "{{Coin}} 56% șansă să apară un bănuț aleator"}, -- Wooden Nickel
+	{"350", "Șoc Toxic", "{{Poison}} Când intri în cameră otrăvești inamicii#Inamicii omorâți lasă o baltă de lichid#Lichidul dă 30 daune pe secundă"}, -- Toxic Shock
+	{"351", "Mega Fasole", "Pietrifică toți inamicii din cameră#{{Poison}} Dă 5 daune și otrăvește orice inamic din împrejurimi#Trimite un val de pietre în direcția în care Isaac merge#Valul de pietre poate deschide camere secrete și sparge pietre"}, -- Mega Bean
+	{"352", "Tun de Sticlă", "{{Warning}} Trăgând cu tunul reduce viața lui Isaac la jumătate de inimă#Trage o lacrimă mare cu penetrare + balistică care dă 10x Daunele lui Isaac"}, -- Glass Cannon
 	{"353", "Bomber Boy", "{{Bomb}} +5 Bombs#Bombs explode in a cross-shaped pattern"}, -- Bomber Boy
 	{"354", "Crack Jacks", "↑ {{Heart}} +1 Health#{{Trinket}} Spawns a trinket"}, -- Crack Jacks
 	{"355", "Mom's Pearls", "↑ {{Range}} +1.25 Range#↑ +0.5 Tear height#↑ {{Luck}} +1 Luck"}, -- Mom's Pearls
