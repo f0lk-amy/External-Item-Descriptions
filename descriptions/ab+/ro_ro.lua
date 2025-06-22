@@ -375,24 +375,24 @@ EID.descriptions[languageCode].collectibles={
 	{"350", "Șoc Toxic", "{{Poison}} Când intri în cameră otrăvești inamicii#Inamicii omorâți lasă o baltă de lichid#Lichidul dă 30 daune pe secundă"}, -- Toxic Shock
 	{"351", "Mega Fasole", "Pietrifică toți inamicii din cameră#{{Poison}} Dă 5 daune și otrăvește orice inamic din împrejurimi#Trimite un val de pietre în direcția în care Isaac merge#Valul de pietre poate deschide camere secrete și sparge pietre"}, -- Mega Bean
 	{"352", "Tun de Sticlă", "{{Warning}} Trăgând cu tunul reduce viața lui Isaac la jumătate de inimă#Trage o lacrimă mare cu penetrare + balistică care dă 10x Daunele lui Isaac"}, -- Glass Cannon
-	{"353", "Bomber Boy", "{{Bomb}} +5 Bombs#Bombs explode in a cross-shaped pattern"}, -- Bomber Boy
-	{"354", "Crack Jacks", "↑ {{Heart}} +1 Health#{{Trinket}} Spawns a trinket"}, -- Crack Jacks
-	{"355", "Mom's Pearls", "↑ {{Range}} +1.25 Range#↑ +0.5 Tear height#↑ {{Luck}} +1 Luck"}, -- Mom's Pearls
-	{"356", "Car Battery", "{{Battery}} Using an active item triggers its effect twice"}, -- Car Battery
-	{"357", "Box of Friends", "{{Timer}} Duplicates all your familiars for the room#{{Collectible113}} Grants a Demon Baby for the room if Isaac has no familiars"}, -- Box of Friends
-	{"358", "The Wiz", "Spectral tears#Isaac shoots 2 tears at once diagonally"}, -- The Wiz
-	{"359", "8 Inch Nails", "↑ {{Damage}} +1.5 Damage#Increases knockback"}, -- 8 Inch Nails
-	{"360", "Incubus", "Shoots tears with the same tear rate, damage and effects as Isaac"}, -- Incubus
-	{"361", "Fate's Reward", "Shoots tears with the same damage and effects as Isaac#Shoots at half the rate of other familiars"}, -- Fate's Reward
-	{"362", "Lil Chest", "35% chance to spawn a pickup every room"}, -- Lil Chest
-	{"363", "Sworn Protector", "Orbital#Deals 105 contact damage per second#Blocks and attracts enemy shots#{{EternalHeart}} Blocking 10 shots in one room spawns an Eternal Heart"}, -- Sworn Protector
-	{"364", "Friend Zone", "Midrange fly orbital#Deals 45 contact damage per second"}, -- Friend Zone
-	{"365", "Lost Fly", "Moves along walls/obstacles#Deals 105 contact damage per second"}, -- Lost Fly
-	{"366", "Scatter Bombs", "{{Bomb}} +5 Bombs#Isaac's bombs scatter into 2-4 tiny bombs"}, -- Scatter Bombs
-	{"367", "Sticky Bombs", "{{Bomb}} +5 Bombs#Isaac's bombs stick to enemies#Killing an enemy with a bomb spawns blue spiders"}, -- Sticky Bombs
-	{"368", "Epiphora", "↑ {{Tears}} Shooting in one direction gradually decreases tear delay up to 200% and decreases accuracy"}, -- Epiphora
-	{"369", "Continuum", "↑ {{Range}} +2.25 Range#↑ +1.5 Tear height#Spectral tears#Tears can travel through one side of the screen and come out the other side"}, -- Continuum
-	{"370", "Mr. Dolly", "↑ {{Tears}} +0.7 Tears#↑ {{Range}} +5.25 Range#↑ +0.5 Tear height#{{UnknownHeart}} Spawns 3 random hearts"}, -- Mr. Dolly
+	{"353", "Băiatul Bombă", "{{Bomb}} +5 Bombe#Bombele explodează în formă de cruce"}, -- Bomber Boy
+	{"354", "Crack Jacks", "↑ {{Heart}} +1 Viață#{{Trinket}} Apare un pick-up"}, -- Crack Jacks
+	{"355", "Perlele Mamei", "↑ {{Range}} +1.25 Distanță#↑ +0.5 Înălțimea Lacrimilor#↑ {{Luck}} +1 Noroc"}, -- Mom's Pearls
+	{"356", "Baterie de Mașină", "{{Battery}} Folosind un articol activ îl activează de 2 ori"}, -- Car Battery
+	{"357", "Cutie de Prieteni", "{{Timer}} Duplică toți familiarii pentru cameră#{{Collectible113}} Primești un Bebe Demon pentru cameră dacă Isaac nu are familiari"}, -- Box of Friends
+	{"358", "Vrăjitorul", "Lacrimi fantomatice#Isaac trage cu 2 lacrimi odată diagonal"}, -- The Wiz
+	{"359", "Cuie de 8 Inci", "↑ {{Damage}} +1.5 Daune#Crește împingerea"}, -- 8 Inch Nails
+	{"360", "Incubus", "Trage lacrimi cu aceiași rată, daune și efecte ca Isaac"}, -- Incubus
+	{"361", "Recompensa Sorții", "Trage lacrimi cu aceleași daune și efecte ca Isaac#Trage la jumătate de rată față de alți familiari"}, -- Fate's Reward
+	{"362", "Mica Cutie", "35% șansă să apară un pickup în fiecare cameră"}, -- Lil Chest
+	{"363", "Protector Jurat", "Orbital#Dă 105 daune de contact pe secundă#Blochează și atacă atacurile inamice#{{EternalHeart}} Blocând 10 atacuri într-o cameră face să apară o Inimă Eternă"}, -- Sworn Protector
+	{"364", "Zona de Prietenie", "Muscă orbital medie#Dă 45 daune de contact pe secundă"}, -- Friend Zone
+	{"365", "Muscă Pierdută", "Se mișcă langă pereți/obstacole#Dă 105 daune de contact pe secundă"}, -- Lost Fly
+	{"366", "Bombe Împrăștiate", "{{Bomb}} +5 Bombe#Bombele lui Isaac se împrăștie în 2-4 bombe mici"}, -- Scatter Bombs
+	{"367", "Bombe Lipicioase", "{{Bomb}} +5 Bombe#Bombele lui Isaac se lipesc de inamici#Omorând un inamic cu o bombă face să apară un păianjen albastru"}, -- Sticky Bombs
+	{"368", "Epifora", "↑ {{Tears}} Trăgând doar într-o direcție scade gradual întârzierea lacrimilor până la 200% și scade acuratețea"}, -- Epiphora
+	{"369", "Continuum", "↑ {{Range}} +2.25 Distanță#↑ +1.5 Înălțimea Lacrimilor#Lacrimi fantomatice#Lacrimile pot trece printr-o parte a ecranului și să revină pe cealaltă"}, -- Continuum
+	{"370", "Dl. Păpușă", "↑ {{Tears}} +0.7 Lacrimi#↑ {{Range}} +5.25 Distanță#↑ +0.5 Înălțimea Lacrimilor#{{UnknownHeart}} Apar 3 inimi aleatorii"}, -- Mr. Dolly
 	{"371", "Curse of the Tower", "{{Warning}} Taking damage spawns 6 Troll Bombs#The Troll Bombs inherit Isaac's bomb effects"}, -- Curse of the Tower
 	{"372", "Charged Baby", "Every 30 seconds while in an uncleared room, the familiar can:#{{Battery}} Spawn a Battery (max 2 per room)#{{Battery}} Add one charge to the active item (max 2 per room)#Petrify all enemies in the room"}, -- Charged Baby
 	{"373", "Dead Eye", "↑ {{Damage}} Consecutive tear hits on enemies grant +25% damage (max +100%)#Missing has a chance to reset the multiplier"}, -- Dead Eye
