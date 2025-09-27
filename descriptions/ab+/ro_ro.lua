@@ -393,21 +393,21 @@ EID.descriptions[languageCode].collectibles={
 	{"368", "Epifora", "↑ {{Tears}} Trăgând doar într-o direcție scade gradual întârzierea lacrimilor până la 200% și scade acuratețea"}, -- Epiphora
 	{"369", "Continuum", "↑ {{Range}} +2.25 Distanță#↑ +1.5 Înălțimea Lacrimilor#Lacrimi fantomatice#Lacrimile pot trece printr-o parte a ecranului și să revină pe cealaltă"}, -- Continuum
 	{"370", "Dl. Păpușă", "↑ {{Tears}} +0.7 Lacrimi#↑ {{Range}} +5.25 Distanță#↑ +0.5 Înălțimea Lacrimilor#{{UnknownHeart}} Apar 3 inimi aleatorii"}, -- Mr. Dolly
-	{"371", "Curse of the Tower", "{{Warning}} Taking damage spawns 6 Troll Bombs#The Troll Bombs inherit Isaac's bomb effects"}, -- Curse of the Tower
-	{"372", "Charged Baby", "Every 30 seconds while in an uncleared room, the familiar can:#{{Battery}} Spawn a Battery (max 2 per room)#{{Battery}} Add one charge to the active item (max 2 per room)#Petrify all enemies in the room"}, -- Charged Baby
-	{"373", "Dead Eye", "↑ {{Damage}} Consecutive tear hits on enemies grant +25% damage (max +100%)#Missing has a chance to reset the multiplier"}, -- Dead Eye
-	{"374", "Holy Light", "10% chance to shoot holy tears, which spawn a beam of light on hit#{{Luck}} 50% chance at 9 luck#{{Damage}} The beam deals 4x Isaac's damage"}, -- Holy Light
-	{"375", "Host Hat", "Grants immunity to explosions, rock wave attacks and Mom and Satan's stomp attacks#25% chance to reflect enemy shots"}, -- Host Hat
-	{"376", "Restock", "Spawns 3 random pickups#Buying an item from a Shop restocks it instantly"}, -- Restock
-	{"377", "Bursting Sack", "Spider enemies no longer target or deal contact damage to Isaac"}, -- Bursting Sack
-	{"378", "No. 2", "Holding a fire button for 2.35 seconds spawns a lit Butt Bomb"}, -- No. 2
-	{"379", "Pupula Duplex", "↑ {{Tearsize}} x2 Tear size#Spectral tears"}, -- Pupula Duplex
-	{"380", "Pay To Play", "{{Coin}} +5 Coins#{{Coin}} Single-key doors must be opened with coins instead of keys"}, -- Pay To Play
-	{"381", "Eden's Blessing", "↑ {{Tears}} +0.7 Tears#Grants a random item at the start of the next run"}, -- Eden's Blessing
-	{"382", "Friendly Ball", "Can be thrown at enemies to capture them#Using the item after capturing an enemy spawns it as a friendly companion"}, -- Friendly Ball
-	{"383", "Tear Detonator", "Splits all of Isaac's tears currently on screen in a circle of 6 tears"}, -- Tear Detonator
-	{"384", "Lil Gurdy", "{{Chargeable}} Launches and bounces around the room with speed based on charge amount#Deals 5-90 contact damage per second depending on speed"}, -- Lil Gurdy
-	{"385", "Bumbo", "{{Coin}} Picks up nearby coins#Levels up after getting 6, 12, and 24 coins#Lv2: Chance to spawn item after room clears#Lv3: Shoots tears that can spawn coins on hit#Lv4: Chases enemies, occasionally dropping bombs, can spawn item on coin pickup"}, -- Bumbo
+	{"371", "Blestemul Turnului", "{{Warning}} După ce ești vătămat apar 6 Bombe Troll#Bombele Troll moștenesc efectele de bombă ale lui Isaac"}, -- Curse of the Tower
+	{"372", "Bebeluș Încărcat", "La fiecare 30 de secunde într-o cameră neterminată, familiarul poate:#{{Battery}} Face să apară o baterie (max 2 pe cameră)#{{Battery}} Adaugă o încărcare articolului activ (max 2 pe cameră)#Pietrifică toți inamicii din cameră"}, -- Charged Baby
+	{"373", "Ochi Mort", "↑ {{Damage}} Când nimerești consecutiv inamicii primești +25% daune (max +100%)#Ai o șansă să resetezi multiplicatorul dacă ratezi"}, -- Dead Eye
+	{"374", "Lumina Sfântă", "10% șansă să tragi cu lacrimi sfinte care fac să apară o rază de lumină când nimerești un atac#{{Luck}} 50% șansă la 9 noroc#{{Damage}} Lumina dă de 4x daunele lui Isaac"}, -- Holy Light
+	{"375", "Pălăria Gazdei", "Primești imunitate la explozii, valuri de pietre și călcatul Mamei și al lui Satan#25% șansă să trimiți înapoi atacurile inamice"}, -- Host Hat
+	{"376", "Restocare", "Apar 3 lucruri aleatorii#Cumpărând un lucru dintr-un Magazin îl face să se restocheze instant"}, -- Restock
+	{"377", "Sac Izbucnind", "Inamicii păianjen nu te mai urmăresc sau îi dau daune de contact lui Isaac"}, -- Bursting Sack
+	{"378", "Nr. 2", "Ținând butonul de atac pentru 2.35 secunde face să apară o Bombă-Fund aprinsă"}, -- No. 2
+	{"379", "Duplexul Popula", "↑ {{Tearsize}} x2 Mărimea Lacrimilor#Lacrimi Fantomatice"}, -- Pupula Duplex
+	{"380", "Plătește Pentru a Juca", "{{Coin}} +5 Bani#{{Coin}} Ușile cu o încuietoare trebuiesc deschise cu bani în locul cheilor"}, -- Pay To Play
+	{"381", "Binecuvântarea lui Eden", "↑ {{Tears}} +0.7 Viteză de Atac#Primești un articol aleator la începutul cursei următoare"}, -- Eden's Blessing
+	{"382", "Minge Prietenoasă", "Poate fi aruncată spre inamici pentru a-i captura#Folosind articolul după capturarea unui inamic îl face să apară ca un companion prietenos"}, -- Friendly Ball
+	{"383", "Detonatorul Lacrimilor", "Împarte toate lacrimile lui Isaac de pe ecran într-un cerc de 6 lacrimi"}, -- Tear Detonator
+	{"384", "Micul Gurdy", "{{Chargeable}} Se aruncă și sare în jurul camereicu viteza bazată pe încărcarea atacului#Dă 5-90 daune de contact pe secundă depinzănd de viteză"}, -- Lil Gurdy
+	{"385", "Bumbo", "{{Coin}} Ridică banii apropiați#Își crește nivelul după ce ia 6, 12, și 24 de bănuți#Lv2:Șansă să apară un articol după curățarea camerei#Lv3: Trage cu lacrimi care fac să apară un bănuț când nimeresc#Lv4: Aleargă inamicii, ocazional aruncă bombe, poate apărea un articol când iei un ban"}, -- Bumbo
 	{"386", "D12", "Rerolls any obstacle into another random obstacle (e.g. poop, pots, TNT, red poop, stone blocks etc.)"}, -- D12
 	{"387", "Censer", "{{Slow}} Familiar surrounded by a huge aura of light that slows down enemies and projectiles in it"}, -- Censer
 	{"388", "Key Bum", "{{Key}} Picks up nearby keys#{{Chest}} Spawns random chests in return"}, -- Key Bum
