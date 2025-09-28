@@ -408,20 +408,20 @@ EID.descriptions[languageCode].collectibles={
 	{"383", "Detonatorul Lacrimilor", "Împarte toate lacrimile lui Isaac de pe ecran într-un cerc de 6 lacrimi"}, -- Tear Detonator
 	{"384", "Micul Gurdy", "{{Chargeable}} Se aruncă și sare în jurul camereicu viteza bazată pe încărcarea atacului#Dă 5-90 daune de contact pe secundă depinzănd de viteză"}, -- Lil Gurdy
 	{"385", "Bumbo", "{{Coin}} Ridică banii apropiați#Își crește nivelul după ce ia 6, 12, și 24 de bănuți#Lv2:Șansă să apară un articol după curățarea camerei#Lv3: Trage cu lacrimi care fac să apară un bănuț când nimeresc#Lv4: Aleargă inamicii, ocazional aruncă bombe, poate apărea un articol când iei un ban"}, -- Bumbo
-	{"386", "D12", "Rerolls any obstacle into another random obstacle (e.g. poop, pots, TNT, red poop, stone blocks etc.)"}, -- D12
-	{"387", "Censer", "{{Slow}} Familiar surrounded by a huge aura of light that slows down enemies and projectiles in it"}, -- Censer
-	{"388", "Key Bum", "{{Key}} Picks up nearby keys#{{Chest}} Spawns random chests in return"}, -- Key Bum
-	{"389", "Rune Bag", "{{Rune}} Spawns a random rune every 5-6 rooms"}, -- Rune Bag
-	{"390", "Seraphim", "Shoots Sacred Heart tears#Deals 10 damage per tear"}, -- Seraphim
-	{"391", "Betrayal", "{{Charm}} Taking damage charms all enemies in the room"}, -- Betrayal
-	{"392", "Zodiac", "Grants a random zodiac item effect every floor"}, -- Zodiac
-	{"393", "Serpent's Kiss", "{{Poison}} 15% chance to shoot poison tears#{{Poison}} Poison enemies on contact#{{BlackHeart}} Poisoned enemies have a chance to drop a Black Heart on death"}, -- Serpent's Kiss
-	{"394", "Marked", "↑ {{Tears}} +0.7 Tears#↑ {{Range}} +3.15 Range#↑ +0.3 Tear height#Isaac automatically shoots tears at a movable red target on the ground"}, -- Marked
-	{"395", "Tech X", "{{Chargeable}} Isaac's tears are replaced by a chargeable laser ring#Ring size increases with charge amount"}, -- Tech X
-	{"396", "Ventricle Razor", "Creates up to two portals to travel between#Can be placed in different rooms"}, -- Ventricle Razor
-	{"397", "Tractor Beam", "↑ {{Tears}} +0.5 Tears#↑ {{Range}} +5.25 Range#↑ +0.5 Tear height#↑ {{Shotspeed}} +0.16 Shot speed#Isaac's tears always travel along a beam of light in front of him"}, -- Tractor Beam
-	{"398", "God's Flesh", "Tears can shrink enemies#Shrunken enemies can be crushed and killed by walking over them"}, -- God's Flesh
-	{"399", "Maw of the Void", "↑ {{Damage}} +1 Damage#{{Chargeable}} Shooting tears for 2.35 seconds and releasing the fire button creates a black brimstone ring around Isaac#It deals 30x Isaac's damage over 2 seconds#{{BlackHeart}} Enemies killed by the black ring have a 5% chance to drop a Black Heart"}, -- Maw of the Void
+	{"386", "D12", "Reface orice obstacol într-unul aleator (ex. rahat, vaze, TNT, rahat roșu, blocuri de pietre etc.)"}, -- D12
+	{"387", "Cădelniță", "{{Slow}} Familiar înconjurat de o mare aură de lumină care încetinește inamicii și proiectilele"}, -- Censer
+	{"388", "Vagabondul Cheii", "{{Key}} Ia cheile apropiate#{{Chest}} Dă cutii aleatorii în schimb"}, -- Key Bum
+	{"389", "Plasă cu Rune", "{{Rune}} Apare o rună aleatorie la fiecare 5-6 camere"}, -- Rune Bag
+	{"390", "Serafim", "Trage cu lacrimi de Inimă Sacră#Dă 10 daune pe lacrimă"}, -- Seraphim
+	{"391", "Trădarea", "{{Charm}} Primind daune cucerești toți inamicii din cameră"}, -- Betrayal
+	{"392", "Zodiac", "Primești un efect de zodiac aleator pe fiecare etaj"}, -- Zodiac
+	{"393", "Sărutul Șarpelui", "{{Poison}} 15% șansă să tragi cu lacrimi otrăvite#{{Poison}} Otrăvești inamicii la contact#{{BlackHeart}} Inamicii otrăviți au o șansă să arunce o Inimă Neagră la moarte"}, -- Serpent's Kiss
+	{"394", "Marcat", "↑ {{Tears}} +0.7 Viteză de Atac#↑ {{Range}} +3.15 Distanță#↑ +0.3 Înălțimea Lacrimilor#Isaac trage lacrimi automat la o țintă mobilă de pe pământ"}, -- Marked
+	{"395", "Tehn X", "{{Chargeable}} Lacrimile lui Isaac sunt înlocuite de un inel de laser încărcabil#Mărimea inelului crește cu încărcarea"}, -- Tech X
+	{"396", "Lamă de Ventricul", "Creează până la 2 portale prin care poți călători#Pot fi puse în camere diferite"}, -- Ventricle Razor
+	{"397", "Rază de Atracție", "↑ {{Tears}} +0.5 Viteză de Atac#↑ {{Range}} +5.25 Distanță#↑ +0.5 Lungimea Lacrimilor#↑ {{Shotspeed}} +0.16 Viteza Lacrimilor#Lacrimile lui Isaac vor merge mereu pe o rază de lumină din fața lui"}, -- Tractor Beam
+	{"398", "Carnea Zeului", "Lacrimile pot micșora inamicii#Inamicii micșorați pot fi zdrobiți și uciși dacă mergi peste ei"}, -- God's Flesh
+	{"399", "Falca Vidului", "↑ {{Damage}} +1 Daune#{{Chargeable}} Trăgând pentru 2.35 secunde și dând drumul la buton creează un inel negru de sulf în jurul lui Isaac#Dă de 30x daunele lui Isaac în 2 secunde#{{BlackHeart}} Inamicii uciși de inelul negru au o șansă de 5% să arunce o Inimă Neagră"}, -- Maw of the Void
 	{"400", "Spear of Destiny", "Isaac holds a spear in front of him#{{Fear}} The spear deals twice his damage and can fear enemies on contact"}, -- Spear of Destiny
 	{"401", "Explosivo", "25% chance to shoot sticky bomb tears#Sticky bomb tears do not deal damage on hit and explode after a few seconds"}, -- Explosivo
 	{"402", "Chaos", "All items are chosen from random item pools#Spawns 1-6 random pickups"}, -- Chaos
