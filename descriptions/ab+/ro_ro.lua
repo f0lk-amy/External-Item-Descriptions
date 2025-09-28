@@ -422,35 +422,35 @@ EID.descriptions[languageCode].collectibles={
 	{"397", "Rază de Atracție", "↑ {{Tears}} +0.5 Viteză de Atac#↑ {{Range}} +5.25 Distanță#↑ +0.5 Lungimea Lacrimilor#↑ {{Shotspeed}} +0.16 Viteza Lacrimilor#Lacrimile lui Isaac vor merge mereu pe o rază de lumină din fața lui"}, -- Tractor Beam
 	{"398", "Carnea Zeului", "Lacrimile pot micșora inamicii#Inamicii micșorați pot fi zdrobiți și uciși dacă mergi peste ei"}, -- God's Flesh
 	{"399", "Falca Vidului", "↑ {{Damage}} +1 Daune#{{Chargeable}} Trăgând pentru 2.35 secunde și dând drumul la buton creează un inel negru de sulf în jurul lui Isaac#Dă de 30x daunele lui Isaac în 2 secunde#{{BlackHeart}} Inamicii uciși de inelul negru au o șansă de 5% să arunce o Inimă Neagră"}, -- Maw of the Void
-	{"400", "Spear of Destiny", "Isaac holds a spear in front of him#{{Fear}} The spear deals twice his damage and can fear enemies on contact"}, -- Spear of Destiny
-	{"401", "Explosivo", "25% chance to shoot sticky bomb tears#Sticky bomb tears do not deal damage on hit and explode after a few seconds"}, -- Explosivo
-	{"402", "Chaos", "All items are chosen from random item pools#Spawns 1-6 random pickups"}, -- Chaos
-	{"403", "Spider Mod", "Displays tear damage and health bars of all enemies#Inflicts random status effects to enemies on contact#Randomly spawns batteries"}, -- Spider Mod
-	{"404", "Farting Baby", "Blocks projectiles#When hit, 10% chance to fart and {{Charm}} charm, {{Poison}} poison or knockback enemies"}, -- Farting Baby
-	{"405", "GB Bug", "Bounces around the room#Deals 120 damage per second and applies random status effects to enemies on contact"}, -- GB Bug
-	{"406", "D8", "Multiplies Isaac's damage, tears, range and speed stats by between x0.5 and x2#The multipliers are rerolled each use"}, -- D8
-	{"407", "Purity", "↑ Boosts one of Isaac's stats depending on the color of the aura#Taking damage removes the effect, and gives Isaac a new effect in the next room#{{ColorYellow}}Yellow{{CR}} = ↑ {{Speed}} +0.5 Speed#{{ColorBlue}}Blue{{CR}} = ↑ {{Tears}} -4 Tear delay#{{ColorRed}}Red{{CR}} = ↑ {{Damage}} +4 Damage#{{ColorOrange}}Orange{{CR}} = ↑ {{Range}} +7.5 Range, ↑ +1 Tear height"}, -- Purity
-	{"408", "Athame", "Taking damage creates a black brimstone ring around Isaac#It deals 30x Isaac's damage over 2 seconds#{{BlackHeart}} Enemies killed by the ring have a 15% chance to drop a Black Heart"}, -- Athame
-	{"409", "Empty Vessel", "{{BlackHeart}} +2 Black Hearts#{{EmptyHeart}} When Isaac has no Red Hearts:#Flight#Every 40 seconds while in a hostile room, gain a shield for 10 seconds"}, -- Empty Vessel
-	{"410", "Evil Eye", "3.33% chance to shoot an eye#{{Luck}} 10% chance at 20 luck#The eye moves in a straight line and shoots tears in the same direction as Isaac"}, -- Evil Eye
-	{"411", "Lusty Blood", "↑ {{Damage}} +0.5 Damage for each enemy killed in the room#Caps at +5 Damage after 10 kills"}, -- Lusty Blood
-	{"412", "Cambion Conception", "Taking damage 15 times spawns a permanent demon familiar#After two familiars, it takes 30 instead of 15#Caps at 4 familiars"}, -- Cambion Conception
-	{"413", "Immaculate Conception", "Picking up 15 hearts spawns a permanent angelic familiar#Caps at 5 familiars#{{SoulHeart}} If all familiars have been granted, spawns a Soul Heart instead"}, -- Immaculate Conception
-	{"414", "More Options", "{{TreasureRoom}} Allows Isaac to choose between 2 items in treasure rooms"}, -- More Options
-	{"415", "Crown Of Light", "{{SoulHeart}} +2 Soul Hearts#If Isaac has no damaged heart containers:#↑ {{Damage}} x2 Damage multiplier#↑ {{Range}} +5.25 Range#↑ +0.5 Tear height#↓ {{Shotspeed}} -0.3 Shot speed#Taking any damage removes the effect for the room"}, -- Crown Of Light
-	{"416", "Deep Pockets", "Allows Isaac to carry two runes/cards/pills"}, -- Deep Pockets
-	{"417", "Succubus", "Bounces around the room surrounded by a damaging aura that deals 1.29x Isaac's damage per second#↑ {{Damage}} x1.5 Damage multiplier while standing in the aura"}, -- Succubus
-	{"418", "Fruit Cake", "Each one of Isaac's tears gets a different effect"}, -- Fruit Cake
-	{"419", "Teleport 2.0", "Teleports Isaac to a room that has not been cleared yet#Hierarchy: {{Room}}>{{BossRoom}}>{{SuperSecretRoom}}>{{Shop}}>{{TreasureRoom}}>{{SacrificeRoom}}> {{DiceRoom}}>{{Library}}>{{CursedRoom}}>{{MiniBoss}}>{{ChallengeRoom}}{{BossRushRoom}}>{{IsaacsRoom}}{{BarrenRoom}}> {{ArcadeRoom}}>{{ChestRoom}}>{{SecretRoom}}>{{DevilRoom}}{{AngelRoom}}>{{ErrorRoom}}"}, -- Teleport 2.0
-	{"420", "Black Powder", "Walking in a circle draws a pentagram on the floor, which deals 130 damage over 4 seconds"}, -- Black Powder
-	{"421", "Kidney Bean", "{{Charm}} Charms and deals 5 damage to all enemies in close range"}, -- Kidney Bean
-	{"422", "Glowing Hour Glass", "Brings Isaac back to the previous room and reverses all actions done in the room the item was used in"}, -- Glowing Hour Glass
-	{"423", "Circle of Protection", "Surrounds Isaac with a large halo that deals his damage on contact per second#Chance to reflect enemy projectiles"}, -- Circle of Protection
-	{"424", "Sack Head", "Pickups have a 33% chance to be replaced with a sack#Spawns a sack"}, -- Sack Head
-	{"425", "Night Light", "{{Slow}} Spawns a slowing cone of light in front of Isaac"}, -- Night Light
-	{"426", "Obsessed Fan", "Mimics Isaac's exact movement on a 3 second delay#Deals 30 contact damage per second"}, -- Obsessed Fan
-	{"427", "Mine Crafter", "Spawns a pushable TNT barrel#Using the item a second time in the same room remotely detonates the barrel"}, -- Mine Crafter
-	{"428", "PJs", "{{HealingRed}} Full health#{{SoulHeart}} +4 Soul Hearts"}, -- PJs
+	{"400", "Sulița Destinului", "Isaac ține o suliță în fața lui#{{Fear}} Sulița dă dublul daunelor lui și poate speria inamicii la contact"}, -- Spear of Destiny
+	{"401", "Explozivul", "25% șansă să tragi cu o lacrimă bombă-lipicioasă#Lacrimile bombă-lipicioasă nu dau daune când nimerești și explodează după câteva secunde"}, -- Explosivo
+	{"402", "Haos", "Toate articolele sunt alese din piscine de articole aleatorii#Apar 1-6 lucruri aleatorii"}, -- Chaos
+	{"403", "Mod Păianjen", "Apar daunele cauzate de lacrimi și bările de viață ale inamicilor#Cauzează efecte de statistici aleatorii inamicilor la contact#Apar baterii aleator"}, -- Spider Mod
+	{"404", "Bebeluș Pârțâit", "Blochează proiectile#Când este nimerit, 10% șansă să se pârțâie, {{Charm}} să farmece, {{Poison}} otrăvească sau să împingă inamicii"}, -- Farting Baby
+	{"405", "Bug GB", "Sare prin cameră#Dă 120 daune pe secundă și aplică efecte de statistici aleatorii inamicilor la contact"}, -- GB Bug
+	{"406", "D8", "Multiplică daunele, viteza de atac, distanța și viteza lui Isaac între x0.5 și x2#Multiplicatoarele sunt refăcute la fiecare folosire"}, -- D8
+	{"407", "Puritate", "↑ Mărește o statistică a lui Isaac depinzând de culoarea aurei#Primind daune scoate efectul și îi dă lui Isaac un nou efect în următoarea cameră#{{ColorYellow}}Galben{{CR}} = ↑ {{Speed}} +0.5 Viteză#{{ColorBlue}}Albastru{{CR}} = ↑ {{Tears}} -4 Întârzierea lacrimilor#{{ColorRed}}Roșu{{CR}} = ↑ {{Damage}} +4 Daune#{{ColorOrange}}Portocaliu{{CR}} = ↑ {{Range}} +7.5 Distanță, ↑ +1 Înălțimea lacrimilor"}, -- Purity
+	{"408", "Athame", "Primind daune creează un inel negru de sulf în jurul lui Isaac#Dă 30x daunele lui Isaac în 2 secunde#{{BlackHeart}} Inamicii uciși de inel au o șansă de 15% să arunce o Inimă Neagră"}, -- Athame
+	{"409", "Vas Gol", "{{BlackHeart}} +2 Inimi Negre#{{EmptyHeart}} Când Isaac nu are Inimi Roșii:#Zboară#La fiecare 40 secunde când e într-o cameră ostilă, primește un scut pentru 10 secunde"}, -- Empty Vessel
+	{"410", "Ochi Rău", "3.33% șansă să tragi un ochi#{{Luck}} 10% șansă la 20 noroc#Ochiul se mișcă într-o linie dreaptă și trage lacrimi în aceeași direcție ca Isaac"}, -- Evil Eye
+	{"411", "Sânge Viguros", "↑ {{Damage}} +0.5 Daune pentru fiecare inamic ucis în cameră#Maximum +5 Daune după 10 ucideri"}, -- Lusty Blood
+	{"412", "Concepția Schimbătoare", "Primind daune de 15 de ori face să apară permanent un familiar demon#După 2 familiari, îi ia 30 în loc de 15#Maximum 4 familiari"}, -- Cambion Conception
+	{"413", "Concepție Imaculată", "Ridicând 15 inimi apare un familiar angelic permanent#Maximum 5 familiari#{{SoulHeart}} Dacă toți familiarii au fost primiți, apare o Inimă Suflet"}, -- Immaculate Conception
+	{"414", "Mai Multe Opțiuni", "{{TreasureRoom}} Îi permite lui Isaac să aleagă dintre 2 articole în camerele comorilor"}, -- More Options
+	{"415", "Coroană de Lumină", "{{SoulHeart}} +2 Inimi Suflet#Dacă Isaac nu are containere de inimi dăunate:#↑ {{Damage}} x2 Daune#↑ {{Range}} +5.25 Distanță#↑ +0.5 Lungimea Lacrimilor#↓ {{Shotspeed}} -0.3 Viteza Lacrimilor#Luând orice daună scoate efectul în cameră"}, -- Crown Of Light
+	{"416", "Buzunare Adânci", "Îi permite lui Isaac să care 2 rune/cărți/pastile"}, -- Deep Pockets
+	{"417", "Succubus", "Sare prin cameră înconjurat de o aură dăunătoare care dă 1.29x daunele lui Isaac pe secundă#↑ {{Damage}} x1.5 Daune când stai în aură"}, -- Succubus
+	{"418", "Tort cu Fructe", "Fiecare lacrimă a lui Isaac primește un efect diferit"}, -- Fruit Cake
+	{"419", "Teleportare 2.0", "Îl teleportează pe Isaac într-o cameră care nu a fost golită încă#Ierarhie: {{Room}}>{{BossRoom}}>{{SuperSecretRoom}}>{{Shop}}>{{TreasureRoom}}>{{SacrificeRoom}}> {{DiceRoom}}>{{Library}}>{{CursedRoom}}>{{MiniBoss}}>{{ChallengeRoom}}{{BossRushRoom}}>{{IsaacsRoom}}{{BarrenRoom}}> {{ArcadeRoom}}>{{ChestRoom}}>{{SecretRoom}}>{{DevilRoom}}{{AngelRoom}}>{{ErrorRoom}}"}, -- Teleport 2.0
+	{"420", "Pudră Neagră", "Mergând într-un cerc desenează o pentagramă pe podea care dă 130 daune în 4 secunde"}, -- Black Powder
+	{"421", "Fasole Rinichi", "{{Charm}} Cucerește și dă 5 daune tuturor inamicilor apropiați"}, -- Kidney Bean
+	{"422", "Clepsidră Luminată", "Îl aduce pe Isaac în camera trecută și anulează toate acțiunile făcute în cameră când este folosită"}, -- Glowing Hour Glass
+	{"423", "Cercul Protecție", "Îl înconjoară pe Isaac cu o aureolă care dă daunele lui de contact la contact pe secundă#Șansă să reflecteze atacurile inamice"}, -- Circle of Protection
+	{"424", "Cap de Sac", "Lucrurile au o șansă de 33% să fie înlocuite cu un sac#Apare un sac"}, -- Sack Head
+	{"425", "Lumină de Noapte", "{{Slow}} Apare un con de lumină încetinitor în fața lui Isaac"}, -- Night Light
+	{"426", "Fan Obsedat", "Imită mișcarea exactă a lui Isaac cu o întârziere de 3 secunde#Dă 30 daune de contact pe secundă"}, -- Obsessed Fan
+	{"427", "Creator de Mine", "Apare un butoi TNT ce poate fi împins#Folosind articolul a doua oară în aceeași cameră îl detonează la distanță"}, -- Mine Crafter
+	{"428", "PJ-uri", "{{HealingRed}} Viață Plină#{{SoulHeart}} +4 Inimi Suflet"}, -- PJs
 	{"429", "Head of the Keeper", "{{Coin}} Hitting an enemy with a tear has a 5% chance to spawn a Penny"}, -- Head of the Keeper
 	{"430", "Papa Fly", "Mimics Isaac's movement on a 1 second delay#Shoots tears at nearby enemies that deal Isaac's damage"}, -- Papa Fly
 	{"431", "Multidimensional Baby", "Mimics Isaac's movement on a 2 second delay#Tears that pass through it are doubled and gain a range + shot speed boost"}, -- Multidimensional Baby
