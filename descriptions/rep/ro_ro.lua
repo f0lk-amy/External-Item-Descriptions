@@ -650,41 +650,44 @@ EID.descriptions[languageCode].bookOfVirtuesWisps = {
 
 ---------- Abyss Locust description parts ----------
 EID.descriptions[languageCode].AbyssTexts = {
-	InfoText = "{amount} x{size}{speed} lăcustă ({dmg})", -- values inside {} brackets will be replaced with text parts below
-	Chance = " ({1}% Șansă)", -- {1} will be replaced with the chance
-	SpeedSlow = "încet", -- Speed < 1
-	SpeedFast = "rapid", -- Speed > 1
-	SpeedDash = "dashing", -- Speed >= 6
-	SizeSmall = "Mică", -- Size < 1
-	SizeBig = "Mare", -- Size > 1
-	DamageMult = "{1}x Daunele lui Isaac", -- {1} will be replaced with the calculated damage multiplier 
+ 	-- values inside {} brackets will be replaced with text parts below
+	-- Abyss texts are affected by the PluralizeFunction (ab+ file)
+	-- The placeholder therefore can be used in all parts that make up the abyss locust descriptions
+	InfoText = "{amount} {size}{speed}locust{pluralize} ({dmg})",
+	InfoTextPlural = nil, -- Can be used by translators to provide a pluralized version of the InfoText
+	Chance = " ({1}% Chance)", -- {1} will be replaced with the chance
+	SpeedSlow = "slow ", -- Speed < 1
+	SpeedFast = "fast ", -- Speed > 1
+	SpeedDash = "dashing ", -- Speed >= 6
+	SizeSmall = "small ", -- Size < 1
+	SizeBig = "big ", -- Size > 1
+	DamageMult = "{1}x Isaac's damage", -- {1} will be replaced with the calculated damage multiplier 
 }
 
 ---------- Abyss Locust special effects ----------
 --- Special locust effects that dont correspond to TearFlags.
 --- Displays an icon in front of the description that shows an item with the same effect
 EID.descriptions[languageCode].AbyssLocustEffects = {
-	[0] = "{{Bomb}} Explodează când provoacă daune",
-	[1] = "{{QuestionMark}} Efecte aleatori",
-	-- 2 = Multiple locusts act like one. Uninteresting info for the player in my opinion
-	[3] = "{{Collectible284}} Înlocuiește inamicii când provoacă daune",
-	[4] = "{{Collectible35}} Provoacă daune tuturor inamicilor când provoacă daune",
-	[5] = "{{Collectible638}} Șterge toți inamicii când provoacă daune",
-	[6] = "{{Collectible114}} Knife spining around locust when its attacking",
-	[7] = "{{Collectible611}} Uses Larynx scream, damaging enemies nearby",
-	[8] = "{{Collectible399}} Spawns a Maw of the Void ring",
-	[9] = "{{Collectible522}} Gains a projectile repelling aura when charging",
-	[10] = "{{Collectible447}} Spawns poison farts when dealing damage",
-	[11] = "{{Collectible447}} Spawns a fart when dealing damage",
-	[12] = "{{Collectible118}} Spawns an anti-gravity brimstone when dealing damage",
-	[13] = "{{Collectible317}} Spawns green creep when dealing damage",
-	[14] = "{{Collectible56}} Spawns yellow creep when dealing damage",
-	[15] = "{{Collectible214}} Spawns red creep when dealing damage",
-	[16] = "{{Collectible178}} Spawns blue creep when dealing damage",
-	[17] = "{{Collectible420}} Randomly spawns a pentagram",
-	[18] = "{{Collectible144}} Gains +0.25 damage for each pickup consumed. Maximum of 25 pickups",
-	}
-	
+[0] = "{{Bomb}} Explodes when dealing damage",
+[1] = "{{QuestionMark}} Random locust effect",
+-- 2 = Multiple locusts act like one. Uninteresting info for the player in my opinion
+[3] = "{{Collectible284}} Reroll enemy when dealing damage",
+[4] = "{{Collectible35}} Damages all enemies when dealing damage",
+[5] = "{{Collectible638}} Erases an enemy when dealing damage",
+[6] = "{{Collectible114}} Knife spining around locust when its attacking",
+[7] = "{{Collectible611}} Uses Larynx scream, damaging enemies nearby",
+[8] = "{{Collectible399}} Spawns a Maw of the Void ring",
+[9] = "{{Collectible522}} Gains a projectile repelling aura when charging",
+[10] = "{{Collectible447}} Spawns poison farts when dealing damage",
+[11] = "{{Collectible447}} Spawns a fart when dealing damage",
+[12] = "{{Collectible118}} Spawns an anti-gravity brimstone when dealing damage",
+[13] = "{{Collectible317}} Spawns green creep when dealing damage",
+[14] = "{{Collectible56}} Spawns yellow creep when dealing damage",
+[15] = "{{Collectible214}} Spawns red creep when dealing damage",
+[16] = "{{Collectible178}} Spawns blue creep when dealing damage",
+[17] = "{{Collectible420}} Randomly spawns a pentagram",
+[18] = "{{Collectible144}} Gains +0.25 damage for each pickup consumed. Maximum of 25 pickups",
+}
 	
 	-- list of Tear flag descriptions used for Abyss locust effect description
 	EID.descriptions[languageCode].TearFlagNames = {
@@ -1307,13 +1310,14 @@ EID.descriptions[languageCode].birthright ={
 
 EID.descriptions[languageCode].GlitchedItemText = {
 	-- Item Config info
-	AddBlackHearts = "{{BlackHeart}} {1} Black Heart",
-	AddBombs = "{{Bomb}} {1} Bomb",
-	AddCoins = "{{Coin}} {1} Coin",
-	AddHearts = "{{HealingRed}} Heals {1} heart",
-	AddKeys = "{{Key}} {1} Key",
-	AddMaxHearts = "{{EmptyHeart}} {1} Heart container",
-	AddSoulHearts = "{{SoulHeart}} {1} Soul Heart",
+	-- These texts are affected by the PluralizeFunction (ab+ file)
+	AddBlackHearts = "{{BlackHeart}} {1} Black Heart{pluralize}",
+	AddBombs = "{{Bomb}} {1} Bomb{pluralize}",
+	AddCoins = "{{Coin}} {1} Coin{pluralize}",
+	AddHearts = "{{HealingRed}} Heals {1} heart{pluralize}",
+	AddKeys = "{{Key}} {1} Key{pluralize}",
+	AddMaxHearts = "{{EmptyHeart}} {1} Heart container{pluralize}",
+	AddSoulHearts = "{{SoulHeart}} {1} Soul Heart{pluralize}",
 
 	-- Cache Flag names
 	cacheFlagStart = "May affect ",
@@ -1331,9 +1335,9 @@ EID.descriptions[languageCode].GlitchedItemText = {
 	chain = " Then:{{CR}} ",
 
 	-- Attribute effects
-	area_damage = "Deal {1} damage în {2} tiles around Isaac",
+	area_damage = "Deal {1} damage in {2} tiles around Isaac",
 	add_temporary_effect = "Grant {1} for the room",
-	convert_entities = "Convert all {1} în the room to {2}",
+	convert_entities = "Convert all {1} in the room to {2}",
 	use_active_item = "Use {1}",
 	spawn_entity = "Spawn a {1}",
 	fart = "Fart on {1} tiles around Isaac",
