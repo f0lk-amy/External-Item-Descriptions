@@ -479,6 +479,18 @@ EID.descriptions[languageCode].bookOfBelialBuffs = {
 }
 
 -- Book of Virtues wisp types
+EID.descriptions[languageCode].BookOfVirtuesWispTexts = {
+	-- values inside {} brackets will be replaced with text parts below
+	-- Wisp texts are affected by the PluralizeFunction (ab+ file)
+	-- The placeholder therefore can be used in all parts that make up the wisp descriptions
+	StatDescription = "{ringIcon}{{Wisp}} {amount}|{{Heart}} {health}|{{Damage}} {damage}",	-- {ringIcon} will be replaced with an icon representing the wisp movement, {amount} with the number of wisps, {health} with the HP, {damage} with the damage or the "CantShoot" text
+	Shotspeed = "{1}% Shot speed", 				-- {1} will be replaced with the shot speed changes in %
+	Chance = " ({1}% Chance)",					-- {1} will be replaced with the chance
+	SingleRoom = "Single room wisp",
+	NoWisps = "No Wisps",
+}
+
+-- Book of Virtues wisp types
 EID.descriptions[languageCode].bookOfVirtuesWisps = {
 	[33] = "Musculițe de apropiere {{InnerWisp}}#Lacrimi balistice", -- The Bible
 	[34] = "Musculițe de mijloc {{MiddleWisp}}#Lacrimi cu daune duble", -- The Book of Belial
