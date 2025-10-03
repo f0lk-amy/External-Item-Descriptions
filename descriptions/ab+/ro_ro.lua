@@ -1091,8 +1091,13 @@ EID.descriptions[languageCode].transformations={
 
 ---------- MISC ----------
 
--- This string will be appended to certain words (like pickup names in glitched item descriptions) to pluralize them, make it "" to not pluralize
-EID.descriptions[languageCode].Pluralize = "s"
+-- a function that will get applied onto specific descriptions (glitched items, Abyss locusts,...) to pluralize them, make it nil to not pluralize
+-- Each language can do their own algorithm to modify the given text to their needs
+EID.descriptions[languageCode].PluralizeFunction = function(text, amount)
+	-- English plural is very easy. Simply put an "s" at the end of specific words, if amount > 1
+	-- replace {pluralize} placeholders inside the text with an "s"
+	return EID:ReplaceVariableStr(text, "pluralize", amount > 1 and "s" or "")
+end
 
 EID.descriptions[languageCode].VoidText = "If absorbed, gain:"
 -- {1} will become the number text (like "{1} Tears" -> "+0.5 Tears")
@@ -1109,28 +1114,31 @@ EID.descriptions[languageCode].CollectionPageInfo = "This item needs to be picke
 
 EID.descriptions[languageCode].BlackFeatherInformation = "{{ColorLime}}{1}{{CR}} items currently held (+{2} Damage)"
 
+EID.descriptions[languageCode].SingleUseInfo = "{{Warning}} SINGLE USE {{Warning}}"
+
 -- Find/replace pairs for changing "+1 Health" to "+1 Soul Heart" for soul health characters, or nothing at all for The Lost
--- {1} = number of hearts, {2} = plural character
+-- {1} = number of hearts, {pluralize} = plural character
+-- These texts are affected by the PluralizeFunction (ab+ file)
 -- If having a simple plural character doesn't work for your language, you could just include an extra string pair to catch plural lines
 EID.descriptions[languageCode].RedToX = {
 	-- These change "+1 Health" to just "+1 Soul Heart" and etc.
-	["Red to Soul"] = {"↑ {{Heart}} +{1} Health", "{{SoulHeart}} +{1} Soul Heart{2}",
-	"↑ {{EmptyHeart}} +{1} Empty heart container{2}", "{{SoulHeart}} +{1} Soul Heart{2}",
-	"↓ {{EmptyHeart}} {1} Health", "↓ {{SoulHeart}} {1} Soul Heart{2}"},
+	["Red to Soul"] = {"↑ {{Heart}} +{1} Health", "{{SoulHeart}} +{1} Soul Heart{pluralize}",
+	"↑ {{EmptyHeart}} +{1} Empty heart container{pluralize}", "{{SoulHeart}} +{1} Soul Heart{pluralize}",
+	"↓ {{EmptyHeart}} {1} Health", "↓ {{SoulHeart}} {1} Soul Heart{pluralize}"},
 	
-	["Red to Black"] = {"↑ {{Heart}} +{1} Health", "{{BlackHeart}} +{1} Black Heart{2}",
-	"↑ {{EmptyHeart}} +{1} Empty heart container{2}", "{{BlackHeart}} +{1} Black Heart{2}",
-	"↓ {{EmptyHeart}} {1} Health", "↓ {{SoulHeart}} {1} Black Heart{2}"},
+	["Red to Black"] = {"↑ {{Heart}} +{1} Health", "{{BlackHeart}} +{1} Black Heart{pluralize}",
+	"↑ {{EmptyHeart}} +{1} Empty heart container{pluralize}", "{{BlackHeart}} +{1} Black Heart{pluralize}",
+	"↓ {{EmptyHeart}} {1} Health", "↓ {{BlackHeart}} {1} Black Heart{pluralize}"},
 	
-	["Red to Bone"] = {"↑ {{Heart}} +{1} Health", "{{BoneHeart}} +{1} Bone Heart{2}",
-	"↑ {{EmptyHeart}} +{1} Empty heart container{2}", "{{EmptyBoneHeart}} +{1} Empty Bone Heart{2}", "{{HealingRed}}", "{{HealingBone}}",
-	"↓ {{EmptyHeart}} {1} Health", "↓ {{EmptyBoneHeart}} {1} Bone Heart{2}"}, -- Red HP to Bone Hearts
+	["Red to Bone"] = {"↑ {{Heart}} +{1} Health", "{{BoneHeart}} +{1} Bone Heart{pluralize}",
+	"↑ {{EmptyHeart}} +{1} Empty heart container{pluralize}", "{{EmptyBoneHeart}} +{1} Empty Bone Heart{pluralize}", "{{HealingRed}}", "{{HealingBone}}",
+	"↓ {{EmptyHeart}} {1} Health", "↓ {{EmptyBoneHeart}} {1} Bone Heart{pluralize}"}, -- Red HP to Bone Hearts
 	
-	["Red to Coin"] = {"↑ {{Heart}} +{1} Health", "{{CoinHeart}} +{1} Coin Heart{2}",
-	"↑ {{EmptyHeart}} +{1} Empty heart container{2}", "{{EmptyCoinHeart}} +{1} Empty Coin Heart{2}",
-	"{{HealingRed}} Heals {1} heart{2}", "{{HealingCoin}} Heals {1} coin{2}", "{{HealingRed}} Heals half a heart", "{{HealingCoin}} Heals 1 coin", "{{HealingRed}}", "{{HealingCoin}}", "↓ {{EmptyHeart}} {1} Health", "↓ {{EmptyCoinHeart}} {1} Coin Heart{2}"}, -- Red HP to Coin Hearts
+	["Red to Coin"] = {"↑ {{Heart}} +{1} Health", "{{CoinHeart}} +{1} Coin Heart{pluralize}",
+	"↑ {{EmptyHeart}} +{1} Empty heart container{pluralize}", "{{EmptyCoinHeart}} +{1} Empty Coin Heart{pluralize}",
+	"{{HealingRed}} Heals {1} heart{pluralize}", "{{HealingCoin}} Heals {1} coin{pluralize}", "{{HealingRed}} Heals half a heart", "{{HealingCoin}} Heals 1 coin", "{{HealingRed}}", "{{HealingCoin}}", "↓ {{EmptyHeart}} {1} Health", "↓ {{EmptyCoinHeart}} {1} Coin Heart{pluralize}"}, -- Red HP to Coin Hearts
 	
-	["Red to None"] = {"↑ {{Heart}} +{1} Health", "", "↑ {{EmptyHeart}} +{1} Empty heart container{2}", "", "↓ {{EmptyHeart}} {1} Health", ""}, -- Red HP to None (The Lost)
+	["Red to None"] = {"↑ {{Heart}} +{1} Health", "", "↑ {{EmptyHeart}} +{1} Empty heart container{pluralize}", "", "↓ {{EmptyHeart}} {1} Health", ""}, -- Red HP to None (The Lost)
 }
 
 EID.descriptions[languageCode].MCM = {
@@ -1213,7 +1221,6 @@ EID.descriptions[languageCode].ConditionalDescs = {
 	["No Effect (Greed)"] = "{{GreedMode}} No effect in Greed Mode",
 	["No Effect (Copies)"] = "No additional effect from multiple copies", -- Having the item already, or having Diplopia while looking at a pedestal
 	["No Effect (Familiars)"] = "No additional effect on familiars", -- probably just for Hive Mind + BFFS!
-	["No Red"] = "No effect for characters that can't have Red Hearts",
 	["Different Effect"] = "{{ColorSilver}}Different effect for {1}{{CR}}",
 	["Dies on Use"] = "{{Warning}} {1} dies on use", -- for Razor Blade and such as The Lost
 	
@@ -1230,13 +1237,13 @@ EID.descriptions[languageCode].ConditionalDescs = {
 	["5.100.246"] = {"{{SuperSecretRoom}} Reveals the Super Secret Room location on the map"}, -- Blue Map (Greed)
 	["5.100.333"] = {"{{SuperSecretRoom}} Reveals the Super Secret Room location on the map"}, -- The Mind (Greed)
 	["5.100.514"] = {"Causes some enemies and projectiles to briefly pause at random intervals"}, -- Broken Modem (Greed)
-	["5.350.34"] = {"{{Heart}} Chance for a bonus heart from chests, tinted rocks and destroyed machines"}, -- Child's Heart
-	["5.350.36"] = {"{{Key}} Chance for a bonus key from chests, tinted rocks and destroyed machines"}, -- Rusted Key
-	["5.350.41"] = {"{{Bomb}} Chance for a bonus bomb from chests, tinted rocks and destroyed machines#{{Warning}} Removes {{Trinket53}} Tick"}, -- Match Stick
-	["5.350.44"] = {"{{Pill}} Chance for a bonus pill from chests, tinted rocks and destroyed machines"}, -- Safety Cap
-	["5.350.45"] = {"{{Card}} Chance for a bonus card from chests, tinted rocks and destroyed machines"}, -- Ace of Spades
+	["5.350.34"] = {"{{Heart}} 33% chance for a bonus heart from chests, tinted rocks, and destroyed machines"}, -- Child's Heart
+	["5.350.36"] = {"{{Key}} 33% chance for a bonus key from chests, tinted rocks, and destroyed machines"}, -- Rusted Key
+	["5.350.41"] = {"{{Bomb}} 33% chance for a bonus bomb from chests, tinted rocks, and destroyed machines#{{Warning}} Removes {{Trinket53}} Tick"}, -- Match Stick
+	["5.350.44"] = {"{{Pill}} 33% chance for a bonus pill from chests, tinted rocks, and destroyed machines"}, -- Safety Cap
+	["5.350.45"] = {"{{Card}} 33% chance for a bonus card from chests, tinted rocks, and destroyed machines"}, -- Ace of Spades
 	["5.350.72"] = {"{{Battery}} +10% chance for random pickups to be a battery#{{Battery}} 5% chance to add 1 charge to held active item when clearing a wave"}, -- Watch Battery
-	["5.100.297 (Greed)"] = {"{{Warning}} SINGLE USE {{Warning}} Spawns rewards based on floor:#Basement: 2{{Bomb}} + 2{{Key}}#Caves: Boss item + 2{{SoulHeart}}#Depths: 20{{Coin}}#Womb: 2 Boss items#Sheol: Devil item + 1{{BlackHeart}}#The Shop/Ultra Greed: 1{{Coin}}"}, -- Pandora's Box
+	["5.100.297 (Greed)"] = {"Spawns rewards based on floor:#Basement: 2{{Bomb}} + 2{{Key}}#Caves: Boss item + 2{{SoulHeart}}#Depths: 20{{Coin}}#Womb: 2 Boss items#Sheol: Devil item + 1{{BlackHeart}}#The Shop/Ultra Greed: 1{{Coin}}"}, -- Pandora's Box
 	
 	
 	------ ACHIEVEMENT CHECKS ------
@@ -1291,6 +1298,7 @@ EID.descriptions[languageCode].ConditionalDescs = {
 	["5.100.81"] = "Characters that can't have Red Hearts get set to 1 Soul/Black Heart", -- Dead Cat
 	["5.100.316"] = "{1} removes the teleportation effect", -- Cursed Eye
 	["5.100.260"] = "Removes the teleportation effect of {1}", -- Black Candle
+	["Void Single Use"] = "Single use items are only activated once", -- Single Use Actives + Void
 	["? Card Single Use"] = "Single use items will disappear after using ? Card", -- Single Use Actives + ? Card
 	["5.300.48"] = "Teleport to I AM ERROR Room#Blank Card and ? Card will be destroyed", -- Blank Card + ? Card
 	["? + Blank Pedestal"] = "Using ? Card with Blank Card teleports you to the I AM ERROR room and destroys both cards", -- Looking at Blank Card with ? Card
@@ -1314,6 +1322,7 @@ EID.descriptions[languageCode].ConditionalDescs = {
 	["Eye of Belial Dr. Fetus"] = "Bombs pierce, but don't home or do additional damage",
 	["Epic Fetus Brimstone"] = "{1} has priority#Rockets shoot out 10 beams",
 	["Epic Fetus Mom's Knife"] = "{1} has priority#Rockets shoot out 10 knives",
+	["Haemolacria Brimstone"] = "{1} has priority#Tears split into 4-7 beams",
 	["Brimstone Mom's Knife"] = "{1} has priority#A barrage of knives shoot out based on charge amount",
 	["Ludovico Ipecac"] = "The tear gets +4 damage but doesn't explode or poison",
 	["Technology Ipecac"] = "The laser gets +4 damage and poisons targets",
