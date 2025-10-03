@@ -652,8 +652,8 @@ EID.descriptions[languageCode].bookOfVirtuesWisps = {
 EID.descriptions[languageCode].AbyssTexts = {
 	InfoText = "{amount} x{size}{speed} lăcustă ({dmg})", -- values inside {} brackets will be replaced with text parts below
 	Chance = " ({1}% Șansă)", -- {1} will be replaced with the chance
-	SpeedSlow = "slow", -- Speed < 1
-	SpeedFast = "fast", -- Speed > 1
+	SpeedSlow = "încet", -- Speed < 1
+	SpeedFast = "rapid", -- Speed > 1
 	SpeedDash = "dashing", -- Speed >= 6
 	SizeSmall = "Mică", -- Size < 1
 	SizeBig = "Mare", -- Size > 1
@@ -664,7 +664,7 @@ EID.descriptions[languageCode].AbyssTexts = {
 --- Special locust effects that dont correspond to TearFlags.
 --- Displays an icon in front of the description that shows an item with the same effect
 EID.descriptions[languageCode].AbyssLocustEffects = {
-	[0] = "{{Bomb}} Expplodează când provoacă daune",
+	[0] = "{{Bomb}} Explodează când provoacă daune",
 	[1] = "{{QuestionMark}} Efecte aleatori",
 	-- 2 = Multiple locusts act like one. Uninteresting info for the player in my opinion
 	[3] = "{{Collectible284}} Înlocuiește inamicii când provoacă daune",
