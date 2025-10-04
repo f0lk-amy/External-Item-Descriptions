@@ -1094,9 +1094,18 @@ EID.descriptions[languageCode].transformations={
 -- a function that will get applied onto specific descriptions (glitched items, Abyss locusts,...) to pluralize them, make it nil to not pluralize
 -- Each language can do their own algorithm to modify the given text to their needs
 EID.descriptions[languageCode].PluralizeFunction = function(text, amount)
-	-- English plural is very easy. Simply put an "s" at the end of specific words, if amount > 1
-	-- replace {pluralize} placeholders inside the text with an "s"
-	return EID:ReplaceVariableStr(text, "pluralize", amount > 1 and "s" or "")
+    -- English plural is very easy. Simply put an "s" at the end of specific words, if amount > 1
+    if amount > 1 then
+        text = text:gsub("Life", "Lives")
+    end
+    -- replace {pluralize} placeholders inside the text with an "s"
+    text = EID:ReplaceVariableStr(text, "pluralize_m", amount > 1 and "i" or "")
+    text = EID:ReplaceVariableStr(text, "pluralize_f", amount > 1 and "e" or "")
+	text = EID:ReplaceVariableStr(text, "pluralize_f2", amount > 1 and "i" or "")
+	text = EID:ReplaceVariableStr(text, "pluralize_f3", amount > 1 and "ii" or "")
+	text = EID:ReplaceVariableStr(text, "pluralize_n", amount > 1 and "e" or "")
+	text = EID:ReplaceVariableStr(text, "pluralize_n2", amount > 1 and "uri" or "")
+    return text
 end
 
 EID.descriptions[languageCode].VoidText = "If absorbed, gain:"
