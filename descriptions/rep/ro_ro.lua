@@ -484,10 +484,10 @@ EID.descriptions[languageCode].BookOfVirtuesWispTexts = {
 	-- Wisp texts are affected by the PluralizeFunction (ab+ file)
 	-- The placeholder therefore can be used in all parts that make up the wisp descriptions
 	StatDescription = "{ringIcon}{{Wisp}} {amount}|{{Heart}} {health}|{{Damage}} {damage}",	-- {ringIcon} will be replaced with an icon representing the wisp movement, {amount} with the number of wisps, {health} with the HP, {damage} with the damage or the "CantShoot" text
-	Shotspeed = "{1}% Shot speed", 				-- {1} will be replaced with the shot speed changes in %
-	Chance = " ({1}% Chance)",					-- {1} will be replaced with the chance
-	SingleRoom = "Single room wisp",
-	NoWisps = "No Wisps",
+	Shotspeed = "{1}% Viteză Lacrimilor", 				-- {1} will be replaced with the shot speed changes in %
+	Chance = " ({1}% Șansă)",					-- {1} will be replaced with the chance
+	SingleRoom = "Musculiță pe durata camerei",
+	NoWisps = "Fără musculiță",
 }
 
 -- Book of Virtues wisp types
@@ -665,15 +665,15 @@ EID.descriptions[languageCode].AbyssTexts = {
  	-- values inside {} brackets will be replaced with text parts below
 	-- Abyss texts are affected by the PluralizeFunction (ab+ file)
 	-- The placeholder therefore can be used in all parts that make up the abyss locust descriptions
-	InfoText = "{amount} {size}{speed}locust{pluralize} ({dmg})",
+	InfoText = "{amount} {size}{speed}lăcustă ({dmg})",
 	InfoTextPlural = nil, -- Can be used by translators to provide a pluralized version of the InfoText
 	Chance = " ({1}% Chance)", -- {1} will be replaced with the chance
-	SpeedSlow = "slow ", -- Speed < 1
-	SpeedFast = "fast ", -- Speed > 1
-	SpeedDash = "dashing ", -- Speed >= 6
-	SizeSmall = "small ", -- Size < 1
-	SizeBig = "big ", -- Size > 1
-	DamageMult = "{1}x Isaac's damage", -- {1} will be replaced with the calculated damage multiplier 
+	SpeedSlow = "încet ", -- Speed < 1
+	SpeedFast = "rapid ", -- Speed > 1
+	SpeedDash = "fulgerător ", -- Speed >= 6
+	SizeSmall = "mic ", -- Size < 1
+	SizeBig = "mare ", -- Size > 1
+	DamageMult = "{1}x daunele lui Isac", -- {1} will be replaced with the calculated damage multiplier 
 }
 
 ---------- Abyss Locust special effects ----------
