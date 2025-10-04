@@ -1096,7 +1096,10 @@ EID.descriptions[languageCode].transformations={
 EID.descriptions[languageCode].PluralizeFunction = function(text, amount)
     -- English plural is very easy. Simply put an "s" at the end of specific words, if amount > 1
     if amount > 1 then
-        text = text:gsub("Life", "Lives")
+        text = text:gsub("Viață", "Vieți") 
+		text = text:gsub("Inimă", "Inimi")
+		text = text:gsub("Neagră", "Negre")
+		text = text:gsub("lăcustă", "lăcuste")
     end
     -- replace {pluralize} placeholders inside the text with an "s"
     text = EID:ReplaceVariableStr(text, "pluralize_m", amount > 1 and "i" or "")
@@ -1108,22 +1111,22 @@ EID.descriptions[languageCode].PluralizeFunction = function(text, amount)
     return text
 end
 
-EID.descriptions[languageCode].VoidText = "If absorbed, gain:"
+EID.descriptions[languageCode].VoidText = "Dacă este absorbit:"
 -- {1} will become the number text (like "{1} Tears" -> "+0.5 Tears")
-EID.descriptions[languageCode].VoidNames = {"{1} Speed", "{1} Tears", "{1} Damage", "{1} Range", "{1} Shot speed", "{1} Luck"}
+EID.descriptions[languageCode].VoidNames = {"{1} Viteză", "{1} Lacrimi", "{1} Daune", "{1} Rază de atac", "{1} Viteza lacrimilor", "{1} Noroc"}
 
-EID.descriptions[languageCode].PurityBoosts = {[0] = "↑ {{Damage}} +4 Damage", "↑ {{Tears}} -4 Tear delay", "↑ {{Speed}} +0.5 Speed", "↑ {{Range}} +7.5 Range#↑ +1 Tear height"}
+EID.descriptions[languageCode].PurityBoosts = {[0] = "↑ {{Damage}} +4 Daune", "↑ {{Tears}} -4 Întârziere a lacrimilor", "↑ {{Speed}} +0.5 Viteză", "↑ {{Range}} +7.5 Rază de atac#↑ +1 Înălțimea lacrimilor"}
 
-EID.descriptions[languageCode].CrookedPennyHeads = "Heads"
-EID.descriptions[languageCode].CrookedPennyTails = "Tails"
+EID.descriptions[languageCode].CrookedPennyHeads = "Cap"
+EID.descriptions[languageCode].CrookedPennyTails = "Pajură"                    
 
-EID.descriptions[languageCode].LuckModifier = "{1}% chance at {2} luck"
+EID.descriptions[languageCode].LuckModifier = "{1}% șansă la {2} noroc"
 
-EID.descriptions[languageCode].CollectionPageInfo = "This item needs to be picked up for the collection page!"
+EID.descriptions[languageCode].CollectionPageInfo = "Acest item trebuie să fie colectat pentru pagina de colecții!"
 
-EID.descriptions[languageCode].BlackFeatherInformation = "{{ColorLime}}{1}{{CR}} items currently held (+{2} Damage)"
+EID.descriptions[languageCode].BlackFeatherInformation = "{{ColorLime}}{1}{{CR}} iteme colectate (+{2} Daune)"
 
-EID.descriptions[languageCode].SingleUseInfo = "{{Warning}} SINGLE USE {{Warning}}"
+EID.descriptions[languageCode].SingleUseInfo = "{{Warning}} Unică folosire {{Warning}}"
 
 -- Find/replace pairs for changing "+1 Health" to "+1 Soul Heart" for soul health characters, or nothing at all for The Lost
 -- {1} = number of hearts, {pluralize} = plural character
@@ -1131,23 +1134,23 @@ EID.descriptions[languageCode].SingleUseInfo = "{{Warning}} SINGLE USE {{Warning
 -- If having a simple plural character doesn't work for your language, you could just include an extra string pair to catch plural lines
 EID.descriptions[languageCode].RedToX = {
 	-- These change "+1 Health" to just "+1 Soul Heart" and etc.
-	["Red to Soul"] = {"↑ {{Heart}} +{1} Health", "{{SoulHeart}} +{1} Soul Heart{pluralize}",
-	"↑ {{EmptyHeart}} +{1} Empty heart container{pluralize}", "{{SoulHeart}} +{1} Soul Heart{pluralize}",
-	"↓ {{EmptyHeart}} {1} Health", "↓ {{SoulHeart}} {1} Soul Heart{pluralize}"},
+	["Red to Soul"] = {"↑ {{Heart}} +{1} Inimă", "{{SoulHeart}} +{1} Inimă Suflet",
+	"↑ {{EmptyHeart}} +{1} Inimă goală", "{{SoulHeart}} +{1} Inimă Suflet",
+	"↓ {{EmptyHeart}} {1} Inimă", "↓ {{SoulHeart}} {1} Inimă Suflet"},
 	
-	["Red to Black"] = {"↑ {{Heart}} +{1} Health", "{{BlackHeart}} +{1} Black Heart{pluralize}",
+	["Red to Black"] = {"↑ {{Heart}} +{1} Inimă", "{{BlackHeart}} +{1} Inimă Neagră",
 	"↑ {{EmptyHeart}} +{1} Empty heart container{pluralize}", "{{BlackHeart}} +{1} Black Heart{pluralize}",
-	"↓ {{EmptyHeart}} {1} Health", "↓ {{BlackHeart}} {1} Black Heart{pluralize}"},
+	"↓ {{EmptyHeart}} {1} Inimă", "↓ {{BlackHeart}} {1} Inimă Neagră"},
 	
-	["Red to Bone"] = {"↑ {{Heart}} +{1} Health", "{{BoneHeart}} +{1} Bone Heart{pluralize}",
+	["Red to Bone"] = {"↑ {{Heart}} +{1} Inimă", "{{BoneHeart}} +{1} Bone Heart{pluralize}",
 	"↑ {{EmptyHeart}} +{1} Empty heart container{pluralize}", "{{EmptyBoneHeart}} +{1} Empty Bone Heart{pluralize}", "{{HealingRed}}", "{{HealingBone}}",
-	"↓ {{EmptyHeart}} {1} Health", "↓ {{EmptyBoneHeart}} {1} Bone Heart{pluralize}"}, -- Red HP to Bone Hearts
+	"↓ {{EmptyHeart}} {1} Inimă", "↓ {{EmptyBoneHeart}} {1} Bone Heart{pluralize}"}, -- Red HP to Bone Hearts
 	
-	["Red to Coin"] = {"↑ {{Heart}} +{1} Health", "{{CoinHeart}} +{1} Coin Heart{pluralize}",
+	["Red to Coin"] = {"↑ {{Heart}} +{1} Inimă", "{{CoinHeart}} +{1} Coin Heart{pluralize}",
 	"↑ {{EmptyHeart}} +{1} Empty heart container{pluralize}", "{{EmptyCoinHeart}} +{1} Empty Coin Heart{pluralize}",
 	"{{HealingRed}} Heals {1} heart{pluralize}", "{{HealingCoin}} Heals {1} coin{pluralize}", "{{HealingRed}} Heals half a heart", "{{HealingCoin}} Heals 1 coin", "{{HealingRed}}", "{{HealingCoin}}", "↓ {{EmptyHeart}} {1} Health", "↓ {{EmptyCoinHeart}} {1} Coin Heart{pluralize}"}, -- Red HP to Coin Hearts
 	
-	["Red to None"] = {"↑ {{Heart}} +{1} Health", "", "↑ {{EmptyHeart}} +{1} Empty heart container{pluralize}", "", "↓ {{EmptyHeart}} {1} Health", ""}, -- Red HP to None (The Lost)
+	["Red to None"] = {"↑ {{Heart}} +{1} Inimă", "", "↑ {{EmptyHeart}} +{1} Empty heart container{pluralize}", "", "↓ {{EmptyHeart}} {1} Inimă", ""}, -- Red HP to None (The Lost)
 }
 
 EID.descriptions[languageCode].MCM = {
