@@ -1100,6 +1100,7 @@ EID.descriptions[languageCode].PluralizeFunction = function(text, amount)
 		text = text:gsub("Inimă", "Inimi")
 		text = text:gsub("Neagră", "Negre")
 		text = text:gsub("lăcustă", "lăcuste")
+		text = text:gsub("musculiță", "musculițe")
     end
     -- replace {pluralize} placeholders inside the text with an "s"
     text = EID:ReplaceVariableStr(text, "pluralize_m", amount > 1 and "i" or "")
