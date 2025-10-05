@@ -999,9 +999,9 @@ local repTrinkets={
 }
 EID:updateDescriptionsViaTable(repTrinkets, EID.descriptions[languageCode].trinkets)
 
-EID.descriptions[languageCode].goldenTrinket = "Effect doubled!"
-EID.descriptions[languageCode].tripledTrinket = "Effect tripled!"
-EID.descriptions[languageCode].quadrupledTrinket = "Effect quadrupled!"
+EID.descriptions[languageCode].goldenTrinket = "Efect dublu!"
+EID.descriptions[languageCode].tripledTrinket = "Efect triplu!"
+EID.descriptions[languageCode].quadrupledTrinket = "Efect cvadruplat!"
 
 -- Most trinkets that can be doubled or tripled just have the numbers în their description multiplied
 -- A few trinkets have odd edge cases where their effect completely changes, or is different depending on if it's Mom's Box or Golden
