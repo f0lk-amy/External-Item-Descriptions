@@ -947,7 +947,7 @@ local repTrinkets={
 	[138] = {"138", "'M", "Schimbă itemul activ la folosire"}, -- 'M
 	[139] = {"139", "Amuletă Lacrimă", "{{Luck}} +4 Noroc pentru efectele pe lacrimi"}, -- Teardrop Charm
 	[140] = {"140", "Măr de Sodoma", "Colectarea de inimi roșii poate să le convertească în păianjeni albaștrii#Funcționează și când viața este plină#Poate preveni vindecarea"}, -- Apple of Sodom
-	[141] = {"141", "Cântec de Leagăn Uitat", "Dublează rata de atac a familiarilor"}, -- Forgotten Lullaby
+	[141] = {"141", "Cântec de Leagăn Uitat", "2x rată de atac pentru familiari"}, -- Forgotten Lullaby
 	[142] = {"142", "Credința lui Beth", "{{Collectible584}} Isac primește 4 musculițe Cartea Virtuților la începerea unui nou etaj"}, -- Beth's Faith
 	[143] = {"143", "Condensator Vechi", "{{Battery}} Previne iteme-le active să fie încărcate la curățarea unei camere#{{Battery}} 20% șansă să ofere o baterie la curățarea unei camere#{{Luck}} 33% șansă la 5 noroc"}, -- Old Capacitor
 	[144] = {"144", "Vierme Cerebral", "Lacrimile se întorc 90 de grade ca să nimerească un inamic care ar fi fost ratat"}, -- Brain Worm
@@ -968,7 +968,7 @@ local repTrinkets={
 	[159] = {"159", "Cheie Aurită", "{{Key}} +1 Cheie#{{GoldenChest}} Înlocuiește toatee cuferele (cu excepție Mega/Vechi) cu cufere de aur#{{GoldenChest}} Cuferele pot conține pickup-uri extra"}, -- Gilded Key
 	[160] = {"160", "Sac Norocos", "{{GrabBag}} Începerea unui nou etaj oferă un sac"}, -- Lucky Sack
 	[161] = {"161", "Coroană Rea", "Oferă o {{TreasureRoom}} Cameră a Comorilor și un {{Shop}} Magazin în Sheol"}, -- Wicked Crown
-	[162] = {"162", "Copita lui Azazel", "{{Player7}} Curățarea unei camere are o șansă de 50% să îl transforme pe Isac în Azazel#{{Timer}} Efectul durează până la curățarea și terminarea camerei următoare"}, -- Azazel's Stump
+	[162] = {"162", "Copita lui Azazel", "{{Player7}} Curățarea unei camere are o șansă de 33% să îl transforme pe Isac în Azazel#{{Timer}} Efectul durează până la curățarea și terminarea camerei următoare"}, -- Azazel's Stump
 	[163] = {"163", "Răhățel", "Toți inamicii răhățel mici sunt prietenoși#Curățarea unei camere oferă un răhățel"}, -- Dingle Berry
 	[164] = {"164", "Capsule de Pistol", "{{Bomb}} Oferă o bombă suplimentară pentru fiecare bombă plasată"}, -- Ring Cap
 	[165] = {"165", "Nu Nu!!", "De la Uter în sus înlocuiește toți bănuții și cheile cu bombe, inimi, pastile, cărți, trinket-uri, baterii sau muște inamici"}, -- Nuh Uh!
@@ -1033,7 +1033,7 @@ EID.descriptions[languageCode].goldenTrinketEffects = {
 	-- NO!
 	[88] = { "Prevents Quality {{Quality0}} items from spawning" },
 	-- Gilded Key (Golden version only): it doesn't give a key. bug that might get fixed (maybe it'll give a Golden Key?)
-	[159] = { "Replaces all chests (except Old/Mega) with golden chests#Golden chests can contain extra cards, pills or trinkets" },
+	[159] = { "{{GoldenChest}} Replaces all chests (except Old/Mega) with golden chests#{{GoldenChest}} Golden chests can contain extra cards, pills or trinkets" },
 	-- The Twins
 	[183] = { "May copy/grant 2 familiars", "May copy/grant 2 familiars", "May copy/grant 3 familiars" },
 }
