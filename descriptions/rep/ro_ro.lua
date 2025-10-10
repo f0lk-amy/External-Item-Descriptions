@@ -1007,19 +1007,19 @@ EID.descriptions[languageCode].quadrupledTrinket = "Efect cvadruplat!"
 -- A few trinkets have odd edge cases where their effect completely changes, or is different depending on if it's Mom's Box or Golden
 EID.descriptions[languageCode].goldenTrinketEffects = {
 	-- Broken Remote (replace with Teleport 2.0 info)
-	[4] = { "{{Collectible419}} Using an active item teleports Isac to {{ColorGold}}a room that has not been cleared yet{{CR}}#Hierarchy: {{Room}}>{{BossRoom}}>{{SuperSecretRoom}}>{{Shop}}>{{TreasureRoom}}>{{SacrificeRoom}}> {{DiceRoom}}>{{Library}}>{{CursedRoom}}>{{MiniBoss}}>{{ChallengeRoom}}{{BossRushRoom}}>{{IsaacsRoom}}{{BarrenRoom}}> {{ArcadeRoom}}>{{ChestRoom}}>{{Planetarium}}>{{SecretRoom}}>{{DevilRoom}}{{AngelRoom}}>{{ErrorRoom}}"}, -- Teleport 2.0
+	[4] = { "{{Collectible419}} Folosirea unui item activ îl teleportează pe Isac {{ColorGold}}într-o cameră care nu a fost curățată încă{{CR}}#Ierarhie: {{Room}}>{{BossRoom}}>{{SuperSecretRoom}}>{{Shop}}>{{TreasureRoom}}>{{SacrificeRoom}}> {{DiceRoom}}>{{Library}}>{{CursedRoom}}>{{MiniBoss}}>{{ChallengeRoom}}{{BossRushRoom}}>{{IsaacsRoom}}{{BarrenRoom}}> {{ArcadeRoom}}>{{ChestRoom}}>{{Planetarium}}>{{SecretRoom}}>{{DevilRoom}}{{AngelRoom}}>{{ErrorRoom}}"}, -- Teleport 2.0
 	-- Broken Magnet (find+replace): find Phrase #1 în the localized description, change it to Phrase #2 for doubled
-	[6] = { "coins", "pickups" },
+	[6] = { "bănuți", "pickup-uri" },
 	-- Rosary Bead append
-	[7] = { "{{Collectible72}} Rosary is added to all item pools" },
+	[7] = { "{{Collectible72}} Rozariu este adăugat în fiecare pool de iteme" },
 	-- Golden Store Credit: full replace
-	[13] = { "{{Shop}} {{ColorGold}}Allows Isac to take Shop items for free{{CR}}#Chance to turn into a regular {{Trinket13}} Store Credit after each purchase" },
+	[13] = { "{{Shop}} {{ColorGold}}Îi permite lui Isaac să cumpere iteme din Magazin pe gratis{{CR}}#Șansă să se transforme în  {{Trinket13}} Credit de Magazin după fiecare achiziție" },
 	-- Lucky Rock append (Gold / Mom's Box / Both)
-	[15] = { "Rocks may drop 2 coins", "Rocks may drop 2 coins", "Rocks may drop 3 coins" },
+	[15] = { "Pietrele au șansă ofere 2 bănuți", "Pietrele au șansă ofere 2 bănuți", "Pietrele au șansă ofere 3 bănuți" },
 	-- Golden Mysterious Candy makes Golden Poop
-	[25] = { "poop", "golden poop" },
+	[25] = { "rahat", "rahat de aur" },
 	-- Isac's Fork (find+replace): find Phrase #1 în the localized description, change it to Phrase #2 or 3 for doubled/tripled
-	[46] = { "half a heart", "a heart", "one and a half hearts" },
+	[46] = { "jumătate de inimă", "o inimă", "o inimă jumătate" },
 	-- Tick (replace): A full replacement for Golden / Mom's Box / Both, as the Golden version can be removed and only one effect is tripled
 	[53] = {
 		"{{HealingRed}} Heals {{ColorGold}}2{{CR}} hearts when entering a {{BossRoom}}Boss Room#-{{ColorGold}}30{{CR}}% boss health#{{ColorGold}}Removable!",
@@ -1029,9 +1029,9 @@ EID.descriptions[languageCode].goldenTrinketEffects = {
 	-- Rainbow Worm (append): With Mom's Box, it gives 2 copies of the temp worm, and doubles 1 of those copies, for triple effect
 	[64] = { "Worm's stat boosts are doubled", "Worm's stat boosts are tripled", "Worm's stat boosts are quadrupled", },
 	-- Error (append): Same behavior as Rainbow Worm
-	[75] = { "Trinket effect is doubled if possible", "Trinket effect is tripled if possible", "Trinket effect is quadrupled if possible", },
+	[75] = { "Efectul trinketului este dublat dacă este posibil", "Efectul trinketului este triplat dacă este posibil", "Efectul trinketului este quadrupled dacă este posibil", },
 	-- NO!
-	[88] = { "Prevents Quality {{Quality0}} items from spawning" },
+	[88] = { "Previne itemele de {{Quality0}} calitate să apară" },
 	-- Gilded Key (Golden version only): it doesn't give a key. bug that might get fixed (maybe it'll give a Golden Key?)
 	[159] = { "{{GoldenChest}} Replaces all chests (except Old/Mega) with golden chests#{{GoldenChest}} Golden chests can contain extra cards, pills or trinkets" },
 	-- The Twins
@@ -1062,17 +1062,17 @@ local repCards={
 	[29] = {"29", "Asul de Inimă Neagră", "{{Key}} Transformă toate pickup-urile, cuferele si inamicii non-boss în chei aleatorii"}, -- Ace of Spades
 	[30] = {"30", "Asul de Inimă Roșie", "{{UnknownHeart}} Transformă toate pickup-urile, cuferele si inamicii non-boss în inimi aleatorii"}, -- Ace of Hearts
 	[34] = {"34", "Ehwaz", "Oferă o trapă către etajul următor#{{LadderRoom}} Oferă un beci dacă este folosită pe o bucată de decor (iarbă, pietre mici, hârtie, gemuri, etc.)"}, -- Ehwaz
-	[39] = {"39", "Algiz", "{{Timer}} Isac devine invincibil pentru 20 de secunde"}, -- Algiz
+	[39] = {"39", "Algiz", "{{Timer}} Isac devine invincibil pentru 20 de secunde"}, -- Algizf
 	[42] = {"42", "Cartea Haos", "La folosire cartea este aruncată în direcția în care Isac se mișcă#Omoară TOȚI inamicii care o ating (cu excepție Delirium si Bestia)"}, -- Chaos Card
 	[51] = {"51", "Carte Sfântă", "{{HolyMantle}} Oferă o Mantaua Sfântă de unică folosință (Previne daunele o singură dată	)"}, -- Holy Card
 	[52] = {"52", "Creștere Imensă", "{{Timer}} Pe durata camerei:#↑ {{Damage}} +7 Daune#↑ {{Range}} +3 Rază de atac#Crește mărimea#Isac poate distruge pietrele dacă trece peste ele"}, -- Huge Growth
-	[55] = {"55", "Ciob de Rună", "{{Rune}} Activates a random rune effect#The rune effect is weaker"}, -- Rune Shard
-	[56] = {"56", "0 - The Fool?", "Drops all of Isac's hearts but one and all of his pickups on the floor#Coins and bombs are dropped as {{Collectible74}} The Quarter or {{Collectible19}} Boom! if possible"}, -- 0 - The Fool?
-	[57] = {"57", "I - The Magician?", "{{Timer}} Grants an aura that repels enemies and projectiles for 60 seconds"}, -- I - The Magician?
-	[58] = {"58", "II - The High Priestess?", "{{Timer}} Mom's Foot tries to stomp Isac for 60 seconds"}, -- II - The High Priestess?
-	[59] = {"59", "III - The Empress?", "{{Timer}} Receive for 60 seconds:#↑ {{Heart}} +2 Health#↑ {{Tears}} +1.5 Fire rate#↓ {{Speed}} -0.1 Speed"}, -- III - The Empress?
-	[60] = {"60", "IV - The Emperor?", "Teleports Isac to an extra Boss room that can be defeated for an item#The boss is chosen from two floors deeper than the current one"}, -- IV - The Emperor?
-	[61] = {"61", "V - The Hierophant?", "{{EmptyBoneHeart}} Spawns 2 Bone Hearts"}, -- V - The Hierophant?
+	[55] = {"55", "Ciob de Rună", "{{Rune}} Activează efectul unei rune așatorie#Efectul runei este mai slab"}, -- Rune Shard
+	[56] = {"56", "0 - Nebunul?", "Aruncă toate inimile(rămâi cu una) lui Isac pe jos și toate pickup-urile pe jos#Bănuții și bombele sunt aruncate ca {{Collectible74}} Un Sfert sau {{Collectible19}} Boom! dacă este posibil"}, -- 0 - The Fool?
+	[57] = {"57", "I - Magicianul?", "{{Timer}} Oferă o aură care deviază inamicii și proiectilele pentru 60 de secunde"}, -- I - The Magician?
+	[58] = {"58", "II - Marea Preoteasă?", "{{Timer}} Piciorul mamei încearcă să îl calce pe Isac pentru 60 de secunde"}, -- II - The High Priestess?
+	[59] = {"59", "III - Împărăteasa?", "{{Timer}} Pentru 60 de secunde:#↑ {{Heart}} +2 Viață#↑ {{Tears}} +1.5 Viteză de atac#↓ {{Speed}} -0.1 Viteză"}, -- III - The Empress?
+	[60] = {"60", "IV - Împăratul", "Isac este teleportat la un Șef extra care poate fi învins pentru o recompensă în plus#Șeful este ales de la 2 etaje mai jos"}, -- IV - The Emperor?
+	[61] = {"61", "V - Marele Preot?", "{{EmptyBoneHeart}} Oferă 2 Inimi Os"}, -- V - The Hierophant?
 	[62] = {"62", "VI - The Lovers?", "Spawns an item from the current room's item pool#{{BrokenHeart}} Converts 1 heart container or 2 Soul Hearts into a Broken Heart"}, -- VI - The Lovers?
 	[63] = {"63", "VII - The Chariot?", "{{Timer}} Receive for 10 seconds:#↑ {{Tears}} x4 Fire rate multiplier#Invincible but can't move"}, -- VII - The Chariot?
 	[64] = {"64", "VIII - Justice?", "{{GoldenChest}} Spawns 2-4 golden chests"}, -- VIII - Justice?
