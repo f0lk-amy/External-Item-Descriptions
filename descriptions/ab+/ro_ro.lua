@@ -463,14 +463,14 @@ EID.descriptions[languageCode].collectibles={
 	{"438", "Binky", "↑ {{Tears}} +0.75 Viteză de Atac#↑ Micșorare#{{SoulHeart}} +1 Inimă Suflet"}, -- Binky
 	{"439", "Cutia Mamei", "{{Trinket}} Apare un breloc aleator#Când e ținută:#↑ {{Luck}} +1 Noroc#{{Trinket}} Dublează efectele brelocurilor"}, -- Mom's Box
 	{"440", "Piatră la Rinichi", "↑ +2 Lungimea Lacrimilor#↓ {{Speed}} -0.2 Viteză#↓ {{Range}} -17 Distanță#Isac se oprește din tras ocazional și încarcă un atac care scoate o explozie de lacrimi și o piatră de rinichi"}, -- Kidney Stone
-	{"441", "Mega Blast", "{{Timer}} Fires a huge Mega Satan blood beam for 15 seconds#The beam persists between rooms and floors"}, -- Mega Blast
-	{"442", "Dark Prince's Crown", "While at 1 full Red Heart:#↑ {{Tears}} +0.75 Tears#↑ {{Range}} +1.5 Range#↑ +1 Tear height#↑ {{Shotspeed}} +0.2 Shot speed"}, -- Dark Princes Crown (apostrophe added to the name in Repentance) -- Dark Prince's Crown
-	{"443", "Apple!", "↑ {{Tears}} +0.3 Tears#{{Damage}} 6.66% chance to shoot razor blades that deal 4x Isaac's damage#{{Luck}} 100% chance at 14 luck"}, -- Apple!
-	{"444", "Lead Pencil", "Isaac shoots a cluster of tears every 15 tears#Tears in the cluster deal double damage"}, -- Lead Pencil
-	{"445", "Dog Tooth", "↑ {{Speed}} +0.1 Speed#↑ {{Damage}} +0.3 Damage#{{SecretRoom}}{{SuperSecretRoom}} A wolf howls in rooms adjacent to a Secret/Super Secret Room#{{LadderRoom}} A dog barks in rooms with a crawlspace under a rock"}, -- Dog Tooth
-	{"446", "Dead Tooth", "{{Poison}} While firing, Isaac is surrounded by a green aura that poisons enemies"}, -- Dead Tooth
-	{"447", "Fasole Persistentă", "Firing without pause for 7.5 seconds spawns a poop cloud#The cloud deals Isaac's damage 5 times a second#The cloud lasts 15 seconds and can be moved by shooting it"}, -- Linger Bean
-	{"448", "Shard of Glass", "Upon taking damage:#{{Heart}} 25% chance to spawn a Red Heart#{{Collectible214}} 10% chance to get ↑ {{Range}} +5 Range and leave a trail of blood creep for the room"}, -- Shard of Glass
+	{"441", "Mega Bubuitură", "{{Timer}} Trage cu o mega undă de sânge a lui Mega Satan pentru 15 secunde#Unda persistă între camere și etaje"}, -- Mega Blast
+	{"442", "Coroana Prințului Întunecat", "Când ești la 1 Inimă Roșie întreagă:#↑ {{Tears}} +0.75 Viteză de Atac#↑ {{Range}} +1.5 Distanță#↑ +1 Înălțimea Lacrimilor#↑ {{Shotspeed}} +0.2 Viteza Lacrimilor"}, -- Dark Princes Crown (apostrophe added to the name in Repentance) -- Dark Prince's Crown
+	{"443", "Măr!", "↑ {{Tears}} +0.3 Viteză de Atac#{{Damage}} 6.66% să arunci cu o lamă de ras care dă 4x daunele lui Isac#{{Luck}} 100% șansă la 14 noroc"}, -- Apple!
+	{"444", "Creion de Plumb", "Isac trage o adunătură de lacrimi la fiecare 15 lacrimi#Lacrimile din adunătură dau daune duble"}, -- Lead Pencil
+	{"445", "Dinte de Câine", "↑ {{Speed}} +0.1 Viteză#↑ {{Damage}} +0.3 Daune#{{SecretRoom}}{{SuperSecretRoom}} Un lup rage în camerele adiacente cu o Cameră Secretă/Super Secretă#{{LadderRoom}} Un câine latră în camerele în care există un tunel sub o piatră"}, -- Dog Tooth
+	{"446", "Dinte Mort", "{{Poison}} Când tragi, Isac e înconjurat de o aură verde care otrăvește inamicii"}, -- Dead Tooth
+	{"447", "Fasole Persistentă", "Trăgând fără pauză pentru 7.5 secunde face să apară un nor de rahat#Norul dă daunele lui Isac de 5 ori pe secundă#Norul ține 15 secunde și poate fi mișcat trăgând în el"}, -- Linger Bean
+	{"448", "Ciob de Sticlă", "La primirea daunelor:#{{Heart}} 25% șansă să apară o Inimă Roșie#{{Collectible214}} 10% șansă să primești ↑ {{Range}} +5 Distanță și lași o dâră de sânge în cameră"}, -- Shard of Glass
 	{"449", "Metal Plate", "{{SoulHeart}} +1 Soul Heart#{{Confusion}} Enemy bullets have a 25% chance to be reflected as concussive tears"}, -- Metal Plate
 	{"450", "Eye of Greed", "Every 20 tears, Isaac shoots a coin tear that deals double damage#Enemies hit with the coin get petrified and turn into gold#{{Coin}} Killing a gold enemy drops 1-4 coins#{{Warning}} Firing a coin tear costs 1 coin"}, -- Eye of Greed
 	{"451", "Tarot Cloth", "{{Card}} Spawns a card#{{Card}} Card effects are doubled or enhanced"}, -- Tarot Cloth
