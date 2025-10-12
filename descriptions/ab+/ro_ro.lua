@@ -471,18 +471,18 @@ EID.descriptions[languageCode].collectibles={
 	{"446", "Dinte Mort", "{{Poison}} Când tragi, Isac e înconjurat de o aură verde care otrăvește inamicii"}, -- Dead Tooth
 	{"447", "Fasole Persistentă", "Trăgând fără pauză pentru 7.5 secunde face să apară un nor de rahat#Norul dă daunele lui Isac de 5 ori pe secundă#Norul ține 15 secunde și poate fi mișcat trăgând în el"}, -- Linger Bean
 	{"448", "Ciob de Sticlă", "La primirea daunelor:#{{Heart}} 25% șansă să apară o Inimă Roșie#{{Collectible214}} 10% șansă să primești ↑ {{Range}} +5 Distanță și lași o dâră de sânge în cameră"}, -- Shard of Glass
-	{"449", "Metal Plate", "{{SoulHeart}} +1 Soul Heart#{{Confusion}} Enemy bullets have a 25% chance to be reflected as concussive tears"}, -- Metal Plate
-	{"450", "Eye of Greed", "Every 20 tears, Isaac shoots a coin tear that deals double damage#Enemies hit with the coin get petrified and turn into gold#{{Coin}} Killing a gold enemy drops 1-4 coins#{{Warning}} Firing a coin tear costs 1 coin"}, -- Eye of Greed
-	{"451", "Tarot Cloth", "{{Card}} Spawns a card#{{Card}} Card effects are doubled or enhanced"}, -- Tarot Cloth
-	{"452", "Varicose Veins", "Taking damage shoots 10 tears in a circle around Isaac#The tears deal Isaac's damage + 25"}, -- Varicose Veins
-	{"453", "Compound Fracture", "↑ {{Range}} +1.5 Range#↑ +1 Tear height#Tears shatter into 1-3 small bone shards upon hitting anything"}, -- Compound Fracture
-	{"454", "Polydactyly", "Spawns a {{Rune}} rune, {{Card}} card or {{Pill}} pill on pickup#Allows Isaac to carry 2 runes/cards/pills"}, -- Polydactyly
-	{"455", "Dad's Lost Coin", "↑ {{Range}} +1.5 Range#↑ +1 Tear height#{{Luck}} Spawns a Lucky Penny"}, -- Dad's Lost Coin
-	{"456", "Moldy Bread", "↑ {{Heart}} +1 Health"}, -- Moldy Bread
-	{"457", "Cone Head", "{{SoulHeart}} +1 Soul Heart#20% chance to negate damage taken"}, -- Cone Head
-	{"458", "Belly Button", "{{Trinket}} Allows Isaac to carry 2 trinkets#{{Trinket}} Spawns a random trinket"}, -- Belly Button
-	{"459", "Sinus Infection", "20% chance to shoot a sticky booger#{{Damage}} Boogers deal Isaac's damage once a second and stick for 60 seconds#{{Luck}} Not affected by luck"}, -- Sinus Infection
-	{"460", "Glaucoma", "{{Confusion}} 5% chance to shoot concussive tears#Makes the screen slightly darker"}, -- Glaucoma
+	{"449", "Placă de metal", "{{SoulHeart}} +1 Inimă Suflet#{{Confusion}} Gloanțele inamice au o șansă de 25% să fie reflectate ca lacrimi concusive"}, -- Metal Plate
+	{"450", "Ochi de Lăcomie", "La fiecare 20 lacrimi, Isac trage o lacrimă bănuț care dă daune duble#Inamicii nimeriți cu banul sunt pietrificați și devin aur#{{Coin}} Omorând un inamic de aur lasă 1-4 bani#{{Warning}} Trăgând o lacrimă bănuț costă 1 ban"}, -- Eye of Greed
+	{"451", "Pânză de Tarot", "{{Card}} Apare o carte de joc#{{Card}} Efectele cărților sunt dublate sau fermecate"}, -- Tarot Cloth
+	{"452", "Vene Varicoase", "La primirea lacrimilor tragi 10 lacrimi într-un cerc in jurul lui Isac#Lacrimile dau daunele lui Isac + 25"}, -- Varicose Veins
+	{"453", "Fractură Compusă", "↑ {{Range}} +1.5 Distanță#↑ +1 Înălțimea lacrimilor#Lacrimile se sparg în 1-3 bucățele de os când nimeresc orice"}, -- Compound Fracture
+	{"454", "Polidactilie", "Apare o {{Rune}} rună, {{Card}} carte sau {{Pill}} pastilă#Îi permite lui Isac să care 2 rune/cărți/pastile"}, -- Polydactyly
+	{"455", "Banul Pierdut al Tatei", "↑ {{Range}} +1.5 Distanță#↑ +1 Înălțimea lacrimilor#{{Luck}} Apare un Bănuț Norocos"}, -- Dad's Lost Coin
+	{"456", "Pâine Mucegăită", "↑ {{Heart}} +1 Viață"}, -- Moldy Bread
+	{"457", "Cap de Con", "{{SoulHeart}} +1 Inimă Suflet#20% șansă să anuleze daunele primite"}, -- Cone Head
+	{"458", "Buric", "{{Trinket}} Îi permite lui Isac să care 2 bibelouri#{{Trinket}} Apare un bibelou aleator"}, -- Belly Button
+	{"459", "Infecție de Sinus", "20% șansă să tragi un muc lipicios#{{Damage}} Mucii dau daunele lui Isac o dată pe secundă și se lipesc 60 secunde#{{Luck}} Neafectat de noroc"}, -- Sinus Infection
+	{"460", "Glaucom", "{{Confusion}} 5% șansă să tragi lacrimi concusive#Face ecranul puțin întunecat"}, -- Glaucoma
 	{"461", "Parasitoid", "15% chance to shoot egg sacks#{{Luck}} 50% chance at 5 luck#{{Slow}} Egg sacks spawn slowing creep and a blue spider or fly on hit"}, -- Parasitoid
 	{"462", "Eye of Belial", "↑ {{Range}} +1.5 Range#↑ +1 Tear height#Piercing tears#Hitting an enemy makes the tear homing and doubles its damage"}, -- Eye of Belial
 	{"463", "Sulfuric Acid", "↑ {{Damage}} +0.3 Damage#Isaac's tears can destroy rocks and open doors"}, -- Sulfuric Acid
