@@ -483,22 +483,22 @@ EID.descriptions[languageCode].collectibles={
 	{"458", "Buric", "{{Trinket}} Îi permite lui Isac să care 2 bibelouri#{{Trinket}} Apare un bibelou aleator"}, -- Belly Button
 	{"459", "Infecție de Sinus", "20% șansă să tragi un muc lipicios#{{Damage}} Mucii dau daunele lui Isac o dată pe secundă și se lipesc 60 secunde#{{Luck}} Neafectat de noroc"}, -- Sinus Infection
 	{"460", "Glaucom", "{{Confusion}} 5% șansă să tragi lacrimi concusive#Face ecranul puțin întunecat"}, -- Glaucoma
-	{"461", "Parasitoid", "15% chance to shoot egg sacks#{{Luck}} 50% chance at 5 luck#{{Slow}} Egg sacks spawn slowing creep and a blue spider or fly on hit"}, -- Parasitoid
-	{"462", "Eye of Belial", "↑ {{Range}} +1.5 Range#↑ +1 Tear height#Piercing tears#Hitting an enemy makes the tear homing and doubles its damage"}, -- Eye of Belial
-	{"463", "Sulfuric Acid", "↑ {{Damage}} +0.3 Damage#Isaac's tears can destroy rocks and open doors"}, -- Sulfuric Acid
-	{"464", "Glyph of Balance", "{{SoulHeart}} +2 Soul Hearts#Champion enemies drop whatever pickup Isaac needs the most"}, -- Glyph of Balance
-	{"465", "Analog Stick", "↑ {{Tears}} +0.3 Tears#Allows Isaac to shoot tears in any direction"}, -- Analog Stick
-	{"466", "Contagion", "{{Poison}} The first enemy killed in a room explodes and poison all nearby enemies"}, -- Contagion
-	{"467", "Finger!", "{{Damage}} Constantly deals 10% of Isaac's damage in the direction it points"}, -- Finger!
-	{"468", "Shade", "Follows Isaac's movement on a 1 second delay#Deals 30 contact damage per second#After it deals 600 damage, it is absorbed by Isaac, increasing his contact damage"}, -- Shade
-	{"469", "Depression", "Leaves a trail of creep#The creep deals 6 damage per second#Enemies that touch the cloud can be hit by a holy light beam"}, -- Depression
-	{"470", "Hushy", "Bounces around the room#Deals 30 contact damage per second#Stops moving when Isaac shoots#Blocks projectiles when stopped"}, -- Hushy
-	{"471", "Lil Monstro", "{{Chargeable}} Charges a shotgun attack similar to {{Collectible229}} Monstro's Lung#Each tear deals 3.5 damage"}, -- Lil Monstro
-	{"472", "King Baby", "Other familiars follow it#Stops moving when Isaac shoots#Teleports back to Isaac when he stops shooting"}, -- King Baby
-	{"473", "Big Chubby", "Very slowly charges forwards#Blocks shots#Deals 40.5 contact damage per second"}, -- Big Chubby
-	{"474", "Tonsil", "Blocks enemy projectiles"}, -- Tonsil
-	{"475", "Plan C", "Deals 9,999,999 damage to all enemies#{{Warning}} Kills Isaac 3 seconds later"}, -- Plan C
-	{"476", "D1", "Duplicates a random pickup in the room"}, -- D1
+	{"461", "Parazitoid", "15% ;ansă sa tragi cu saci de ou#{{Luck}} 50% șansă la 5 noroc#{{Slow}} Sacii de ou fac să apară fluid încetinitor și un păianjen albastru sau muscă când nimerești"}, -- Parasitoid
+	{"462", "Ochiul lui Belial", "↑ {{Range}} +1.5 Distanță#↑ +1 Înălțimea lacrimilor#Lacrimi penetratoare#Nimerind un inamic face lacrima balistică și îi dublează daunele"}, -- Eye of Belial
+	{"463", "Acid Sulfuric", "↑ {{Damage}} +0.3 Daune#Lacrimile lui Isac pot distruge pietre și deschide uși"}, -- Sulfuric Acid
+	{"464", "Gliful Echilibrului", "{{SoulHeart}} +2 Inimi Suflet#Inamicii campioni aruncă un lucru de care Isac are cea mai mare nevoie"}, -- Glyph of Balance
+	{"465", "Băț Analogic", "↑ {{Tears}} +0.3 Viteză de Atac#Îi permite lui Isac să tragă lacrimi în orice direcție"}, -- Analog Stick
+	{"466", "Contagiune", "{{Poison}} Primul inamic omorât în cameră explodează și otrăvește toți inamicii apropiați"}, -- Contagion
+	{"467", "Deget!", "{{Damage}} Dă constant 10% din daunele lui Isac în orice direcție arată"}, -- Finger!
+	{"468", "Umbră", "Urmărește mișcările lui Isac cu întârziere de 1 secundă#Dă 30 daune de contact pe secundă#După ce dă 600 daune, e absorbit de Isac, mărindu-i daunele de contact"}, -- Shade
+	{"469", "Depresie", "Lasă o dâră de fluid#Fluidul dă 6 daune pe secundă#Inamicii care ating norul pot fi atinși de o rază de lumină sfântă"}, -- Depression
+	{"470", "Tăcutul", "Sare prin cameră#Dă 30 daune de contact pe secundă#Se oprește când Isac trage#Blochează proiectilele când e oprit"}, -- Hushy
+	{"471", "Micul Monstro", "{{Chargeable}} Încarcă un atac-pușcă similar cu {{Collectible229}} Plămânul lui Monstro#Fiecare lacrimă dă 3.5 daune"}, -- Lil Monstro
+	{"472", "Regele Bebeluș", "Ceilalți familiari îl urmăresc#Se oprește când Isac trage#Se teleportează la Isac când se oprește din tras"}, -- King Baby
+	{"473", "Marele Grăsan", "Se aruncă foarte încet înainte#Blochează proiectile#Dă 40.5 daune de contact pe secundă"}, -- Big Chubby
+	{"474", "Amigdală", "Blochează proiectilele inamice"}, -- Tonsil
+	{"475", "Planul C", "Dă 9,999,999 daune tuturor inamicilor#{{Warning}} Isac moare după 3 secunde"}, -- Plan C
+	{"476", "D1", "Duplică un lucru aleator din cameră"}, -- D1
 	{"477", "Void", "Consumes all pedestal items in the room#Active items: Their effects activate, and will activate with every future use of Void#↑ Passive items grant two random stat ups"}, -- Void
 	{"478", "Pause", "Pauses all enemies in the room until Isaac shoots#Touching a paused enemy still deals damage to Isaac#Enemies unpause after 30 seconds"}, -- Pause
 	{"479", "Smelter", "{{Trinket}} Consumes Isaac's held trinkets and grants their effects permanently#Increases the spawn rate of trinkets"}, -- Smelter
