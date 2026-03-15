@@ -46,15 +46,15 @@ EID:updateDescriptionsViaTable(collectibles, EID.descriptions[languageCode].coll
 
 local trinkets = {
 	-- Change: added ", {{Trinket135}} A Lighter"
-	[53] = {"53", "Tick", "{{HealingRed}} Heals 1 heart when entering a {{BossRoom}} Boss Room#-15% boss health#{{Warning}} Once picked up, it can't be removed#Only removeable with {{Trinket41}} Match Stick, {{Trinket135}} A Lighter, or gulping"}, -- Tick
+	[53] = {"53", "Căpușă", "{{HealingRed}} Vindecă 1 inimă când intri într-o {{BossRoom}} Cameră Boss#{{ColorRed}}-15%{{CR}} viață boss#{{Warning}} Odată luată, nu poate fi scoasă#Poate fi îndepărtată doar cu {{Trinket41}} Chibrit, {{Trinket135}} O Brichetă sau înghițind-o"}, -- Tick
 	-- Change: Changed "12-20 times" to "6-12 times"
-	[97] = {"97", "Tonsil", "Taking damage 6-12 times spawns a projectile blocking familiar#Caps at 2 familiars"}, -- Tonsil
+	[97] = {"97", "Amigdală", "După ce primești daune de 6-12 ori, creează un familiar care blochează proiectile#Dispare după ce creează 2 familiari"}, -- Tonsil
 	-- Change: added "Bombs deal 15% more damage"
-	[133] = {"133", "Short Fuse", "Isaac's bombs explode faster#Bombs deal 15% more damage"}, -- Short Fuse
+	[133] = {"133", "Fitil Scurt", "Bombe lui Isaac explodează mai repede#Bombe provoacă cu 15% mai multe daune"}, -- Short Fuse
 	-- Change: "2%" to "5%"
-	[104] = {"104", "Wish Bone", "5% chance to get destroyed and spawn a pedestal item when hit"}, -- Wish Bone
+	[104] = {"104", "Osul Dorinței", "5% șansă să se distrugă și să creeze un obiect pe piedestal când primești daune"}, -- Wish Bone
 	-- Change: "2%" to "5%"
-	[105] = {"105", "Bag Lunch", "{{Collectible22}} 5% chance to get destroyed and spawn Lunch when hit"}, -- Bag Lunch
+	[105] = {"105", "Prânz la Pachet", "{{Collectible22}} 5% șansă să se distrugă și să creeze Prânzul când primești daune"}, -- Bag Lunch
 }
 EID:updateDescriptionsViaTable(trinkets, EID.descriptions[languageCode].trinkets)
 
